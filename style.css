@@ -307,22 +307,9 @@ body {
 	width: 1199px;
 	height: 560px;
 	display: flex;
-	gap: 48px;
 }
 
-/* .story-left {
-	background-image: url(./images/story-left-bg.png);	
-	background-repeat: no-repeat;
-  	background-position: center;
-  	background-size: cover;
-}
-
-#hours-img {
-	height: 80px;
-	width: 214px;
-	margin-top: 410px;
-	margin-left: 374px;
-} */
+/* Story left side  */
 
 #story-bg {
 	height: 500px;
@@ -344,14 +331,36 @@ body {
 	width: 214px;
 }
 
-
+/* Story right side  */
 
 
 .story-right {
 	display: flex;
 	flex-direction: column;
+	gap: 22px;	
+	margin-left: 72px;
 }
 
+.story-right span {
+	font-size: 13px;
+	color: #9A5B12;
+	font-weight: 700;
+}
+
+.story-right h2 {
+	font-family: var(--font-main);
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.story-right p {
+	width: 524px;
+	height: auto;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1.7;
+	color: #6B5D53;
+}
 
 
 .read-story-btn {
