@@ -362,12 +362,33 @@ body {
 	color: #6B5D53;
 }
 
+/* story right checks  */
+.checks {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.checks img {
+	height: 28px;
+	width: 28px;	
+}
+
+.checks p {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 14px;
+
+	font-size: 17px;
+	font-weight: 400;
+}
 
 .read-story-btn {
-	width: 118px;
-	height: 46px;
-	background-color: #E8A33D;
-	border-radius: 30px;
+	width: 166px;
+	height: 52px;
+	background-color: #1A130F;
+	border-radius: 999px;
 	
 	display: flex;
   	justify-content: center; 
@@ -378,8 +399,7 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	text-decoration: none;
-	color: #1A130F;
+	color: #FFFFFF;
 	font-size: 15px;
 	font-weight: 700;
-	
 }
