@@ -87,7 +87,8 @@ body {
 }
 
 .subscribe-btn {
-	
+	height: 46px;
+	width: 118px;
 }
 
 .subscribe-btn a {
