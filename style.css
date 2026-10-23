@@ -13,6 +13,7 @@ body {
 	width: 100%; 
 	min-width: 320px; 
 	overflow-x: hidden; 
+	font-family: 'DM Sans', sans-serif; 
 }
 
 .main-container {
@@ -26,8 +27,10 @@ body {
 /* Navbar and hero section  */
 
 .navbar-hero-section {
-	/* margin-top: 10px; */
 	background-image: url(./images/hero-bg.png);
+	background-size: cover;       
+	background-position: center;
+	background-repeat: no-repeat;
 	width: 1423px;
 	height: 720px;
 }
@@ -57,6 +60,9 @@ body {
 
 .navbar-left h1 {
 	color: #FFFFFF;
+	font-family: 'Bricolage Grotesque';
+	font-weight: 800;
+	font-size: 24px;
 }
 
 .navbar-left img {
@@ -87,8 +93,13 @@ body {
 }
 
 .subscribe-btn {
-	height: 46px;
 	width: 118px;
+	height: 46px;	
+}
+
+.subscribe-btn a {
+	font-weight: 400;
+	font-size: 15px;
 }
 
 .subscribe-btn a {
@@ -120,16 +131,21 @@ body {
 	border-radius: 50px;
 	justify-items: center;
 	align-items: center;
-
 	padding: 10px;
 }
 
 .hero-heading {
-	height: 155px;
 	width: 760px;
+	height: auto; 
+	font-family: 'Bricolage Grotesque', sans-serif; 
 	font-size: 76px;
 	font-weight: 800;
 	color: #FFFFFF;
+	line-height: 1.1; 
+} 
+
+.hero-heading span {
+	color: #E8A33D;
 }
 
 .hero-para {
@@ -142,10 +158,50 @@ body {
 
 .hero-buttons {
 	display: flex;
+	gap: 16px;
 
 }
 
 .hero-buttons a {
 	text-decoration: none;
 	color: #E6D9CC;
+}
+
+.start-btn {
+	display: flex;
+	border-radius: 30px;
+	background-color: #E8A33D;
+	gap: 14px;
+	height: 52px;
+	width: 216px;
+	justify-content: center;
+  	align-items: center;
+
+}
+
+.start-btn a {
+	font-weight: 700;
+	color: #1A130F;
+}
+
+.explore-btn {
+	height: 52px;
+	width: 189px;
+	border: 2px solid #FFFFFF;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.explore-btn a {
+	font-weight: 700;
+}
+
+.scroll-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #F3E9DF;
 }
