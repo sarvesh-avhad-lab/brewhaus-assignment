@@ -35,7 +35,7 @@ body {
 .navbar-container {
 	height: 84px;
 	width: 100%;
-
+	border: 0.5px solid rgba(255, 255, 255, 0.12);
 }
 
 .nav-bar {
@@ -51,6 +51,8 @@ body {
 .navbar-left {
 	display: flex;
 	align-items: center;
+	margin-left: 40px;
+	gap: 10px;
 }
 
 .navbar-left h1 {
@@ -75,6 +77,8 @@ body {
 .navbar-right {
 	display: flex;
 	align-items: center;
+	margin-right: 40px;
+	gap: 10px;
 }
 
 .navbar-right img {
@@ -82,9 +86,15 @@ body {
 	width: 46px;
 }
 
+.subscribe-btn {
+	
+}
+
 .subscribe-btn a {
 	text-decoration: none;
 	color: #FFFFFF;
+	background-color: #E8A33D;
+	border-radius: 30px;
 }
 
 /* hero-container  */
