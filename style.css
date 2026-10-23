@@ -405,3 +405,34 @@ body {
 }
 
 /* Counter section  */
+.counter-section {
+	height: 211px;
+	width: 100%;
+	padding: 64px 152px;
+
+	display: flex;
+	gap: 68px;
+	background-color: #1A130F;
+}
+
+.counter-section div {
+	height: 83px;
+	width: 256px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center	;
+}
+
+.counter-section h3 {
+	color: #CDBBAA;
+}
+
+.counter-section span {
+	font-family: var(--font-main);
+	font-size: 56px;
+	font-weight: 900;
+	color: #E8A33D;
+}
+
