@@ -98,19 +98,23 @@ body {
 
 .subscribe-btn {
 	width: 118px;
-	height: 46px;	
+	height: 46px;
+	background-color: #E8A33D;
+	border-radius: 30px;
+	
+	display: flex;
+  	justify-content: center; 
+  	align-items: center;     	
 }
 
 .subscribe-btn a {
 	font-weight: 400;
 	font-size: 15px;
-}
-
-.subscribe-btn a {
 	text-decoration: none;
-	color: #FFFFFF;
-	background-color: #E8A33D;
-	border-radius: 30px;
+	color: #1A130F;
+	font-size: 15px;
+	font-weight: 700;
+	
 }
 
 /* hero-container  */
@@ -290,3 +294,34 @@ body {
 	width: 56px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.subscribe-btn {
+	width: 118px;
+	height: 46px;
+	background-color: #E8A33D;
+	border-radius: 30px;
+	
+	display: flex;
+  	justify-content: center; 
+  	align-items: center;     	
+}
+
+.subscribe-btn a {
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	color: #1A130F;
+	font-size: 15px;
+	font-weight: 700;
+	
+}
