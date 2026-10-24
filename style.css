@@ -1003,6 +1003,8 @@ body {
 	color: #1A130F;
 }
 
+
+
 .question  h2 {
 	font-size: 19px;
 	color: #1A130F;
@@ -1023,7 +1025,12 @@ body {
 .answer {
 	font-size: 16px;
 	line-height: 1.7;
+	font-family: "DM Sans";
 	color: 6B5D53;
+	color: #6B5D53;
+	padding-right: 60px;
+	padding-bottom: 24px;
+	width: 528px;
 }
 
 /* contact section  */
