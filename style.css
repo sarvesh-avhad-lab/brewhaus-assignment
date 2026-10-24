@@ -438,7 +438,57 @@ body {
 
 /* menu section  */
 .menu-section {
-	background-color: #D7C3AF;
+	background-color: #F7F2EC;
 	width: 100%;
 	height: auto;
+	padding: 88px 112px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
 }
+
+.menu-section span {
+	font-size: 13px;
+	font-weight: 700;
+	color: #9A5B12;
+}
+
+.menu-section h2 {
+	font-family: var(--font-main);
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 1.08;
+	letter-spacing: -0.03em;
+	color: #1A130F;
+}
+
+.menu-section p {
+	color: #6B5D53;
+	font-size: 18px;
+	line-height: 1.6px;
+}
+
+.categories {
+	display: flex;
+	gap: 10px;
+}
+
+.button {
+	/* background-color: #1A130F; */
+	background-color: #FFFFFF;
+	border: 0.89px solid black;
+	border-radius: 999px;
+	height: auto;
+	width: fit-content;	
+	padding: 10px 15px;
+  	box-sizing: border-box;
+
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 26px;	
+}
+
