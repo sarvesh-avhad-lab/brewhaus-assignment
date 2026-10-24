@@ -518,20 +518,21 @@
 
 						<div class="fullname">
 							<label for="name">Full name</label>
-							<input type="text" name="name" id="name" required>
+							<input type="text" placeholder="Aarav Sharma" name="name" id="name" required>
 						</div>
 
 						<div class="email">
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email" required>
+							<input type="email" placeholder="you@example.com" name="email" id="email" required>
 						</div>
 						
 						<div class="phone">
 							<label for="phone-no">Phone</label>
-							<input type="number" name="phone-no" id="phone-no">
+							<input type="text" placeholder="10-digit mobile number" name="phone-no" id="phone-no">
 						</div>
 
 						<div class="subject">
+							<label for="subject-select">Subject</label>
 							<select name="slect-subject" id="subject-select">
 								<!-- <option value="" disabled selected hidden>Select a subject</option> -->
 								<option value="" selected>Select a subject</option>
@@ -540,6 +541,11 @@
 								<option value="Feedback">Feedback</option>
 								<option value="Something else">Something else</option>
 							</select>
+						</div>
+
+						<div class="message">
+							<label for="write-message">message</label>
+							<input type="text" placeholder="How can I help?" name="message" id="write-message">
 						</div>
 
 						<div class="submit-field">
