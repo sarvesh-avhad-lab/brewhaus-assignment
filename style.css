@@ -988,10 +988,35 @@ body {
 .question-container {
 	display: flex;
 	flex-direction: column;
+	gap: 30px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-top: 0.01px solid #6B5D53;
+	border-bottom: 0.01px solid #6B5D53;
+	/* margin-top: 1px; */
 }
 
 .question {
 	display: flex;
 	justify-content: space-between;
+	font-size: 19px;
+	color: #1A130F;
 }
 
+.question span {
+	height: 36px;
+	width: 36px;
+	border-radius: 50%;
+	background-color: #E8A33D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.answer {
+	font-size: 16px;
+	line-height: 1.7;
+	color: 6B5D53;
+}
