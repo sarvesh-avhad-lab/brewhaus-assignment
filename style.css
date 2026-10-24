@@ -819,7 +819,7 @@ body {
 
 .reviewer-name h5 {
 	color: #FFFFFF;
-	font-size: 17px;'
+	font-size: 17px;
 	font-weight: 700;
 }
 
@@ -925,4 +925,20 @@ body {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+}
+
+
+/* FAQ section  */
+.faq-section {
+	width: 100%;
+	height: auto;
+	padding: 88px 112px;
+	background-color: #FFFFFF;
+}
+
+.faq-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 192px;
+	padding: 0px 40px		;
 }
