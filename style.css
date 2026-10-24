@@ -736,3 +736,27 @@ body {
 .middle-price-card .choose-plan-btn {
 	background-color: #E8A33D;
 }
+
+/* Review sectio   */
+
+.review-section {
+	width: 100%;
+	height: auto;
+	background-color: #1A130F;
+	padding: 88px 112px;
+}
+
+.review-container {
+	padding: 0px 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.review-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.review-top-right {
+	display: flex;
+}
