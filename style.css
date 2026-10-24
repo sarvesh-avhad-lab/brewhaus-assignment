@@ -757,6 +757,32 @@ body {
 	justify-content: space-between;
 }
 
+.review-top-left p {
+	color: #E8A33D;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.14px;
+}
+
+.review-top-left h1 {
+	font-family: var(--font-main);
+	font-weight: 800;
+	color: #FFFFFF;
+}
+
 .review-top-right {
 	display: flex;
+	gap: 12px;
+}
+
+.review-top-right div {
+	height: 52px;
+	width: 52px;
+	border-radius: 50%;
+	border: 0.89px solid #FFFFFF;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;	
 }
