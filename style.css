@@ -942,3 +942,56 @@ body {
 	gap: 192px;
 	padding: 0px 40px		;
 }
+
+.faq-left {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.faq-left h6 {
+	color: #9A5B12;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+}
+
+.faq-left h2 {
+	font-family: var(--font-main);
+	font-size: 48px;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	line-height: 1.08;
+	color: #1A130F;
+}
+
+.faq-left p {
+	color: #6B5D53;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.faq-left p u {
+	color: #9A5B12;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+/* faq-right */
+
+.faq-right {
+	display: flex;
+	flex-direction: column;
+	/* gap: 0px; */
+}
+
+.question-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.question {
+	display: flex;
+	justify-content: space-between;
+}
+
