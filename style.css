@@ -577,6 +577,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 44px;
 }
 
 .pricing-upper {
@@ -629,3 +630,109 @@ body {
 
 }
 
+/* Pricing lower  */
+.pricing-lower {
+	height: auto;
+	width: auto;
+	display: flex;
+	gap: 24px;
+}
+
+.edge-price-card {
+	height: 417px;
+	width: 357px;
+	border: 1.5px solid #E6DCD2;
+	padding: 37px 33px;
+	margin-top: 27px;
+	border-radius: 24px;
+}
+
+.middle-price-card {
+	height: 471px;
+	width: 357px;
+	padding: 48px 32px;
+	border-radius: 24px;
+	background-color: #1A130F;
+}
+
+.pricing-card h2 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #1A130F;
+}
+
+.pricing-card p {
+	font-size: 15px;
+	font-weight: 400;
+	color:#6B5D53;
+}
+
+.doller-price {
+	margin-top: 22px;
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 4px;
+}
+
+.doller-price span {
+	font-family: var(--font-main);
+	font-size: 52px;
+	font-weight: 800;
+}
+
+.plan-includes {
+	margin-top: 22px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.plan-includes img {
+	height: 20px;
+	width: 20px;
+}
+
+.plan-includes p {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #1A130F;
+}
+
+.choose-plan-btn {
+	margin-top: 22px;
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 52px;
+	width: 100%;	
+	padding: 10px 15px;
+  	box-sizing: border-box;
+	background-color: #1A130F;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.middle-price-card h2 {
+	color: #FFFFFF;	
+	font-weight: 700;
+}
+
+.middle-price-card span {
+	color: #E8A33D;
+	font-weight: 700;
+}
+
+.middle-price-card p {
+	color: #CDBBAA;	
+}
+
+.middle-card-includes p {
+	color: #FFFFFF;
+}
+
+.middle-price-card .choose-plan-btn {
+	background-color: #E8A33D;
+}
