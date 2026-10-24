@@ -564,3 +564,68 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 }
+
+.pricing-section {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	padding: 88px 112px;	
+}
+
+.pricing-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pricing-upper {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.pricing-upper h5 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #9A5B12;
+	gap: 14px;	
+}
+
+.pricing-upper h2 {
+	font-family: var(--font-main);
+	font-size: 48px;	
+	font-weight: 800;	
+}
+
+.monthy-yearly-change {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 17px;
+}
+
+.monthy-yearly-change span {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.save-discount {
+	font-size: 16px;
+	color: #7A4508;
+	font-weight: 700;
+	background-color: #FBEDD3;
+	border-radius: 999px;
+	display: flex;
+	height: auto;
+	width: fit-content;	
+	padding: 10px 15px;
+  	box-sizing: border-box;
+
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
