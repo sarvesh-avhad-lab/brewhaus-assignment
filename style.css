@@ -1003,6 +1003,11 @@ body {
 	color: #1A130F;
 }
 
+.question  h2 {
+	font-size: 19px;
+	color: #1A130F;
+}
+
 .question span {
 	height: 36px;
 	width: 36px;
