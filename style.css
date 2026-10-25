@@ -1228,3 +1228,36 @@ footer {
 	font-size: 15px;
 }
 
+.footer-column4 .footer-send-email {
+	background-color: #2A1F19;
+	height: 56px;
+	width: 244px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	border-radius: 999px;
+	padding: 6px;
+}
+
+.footer-send-email input {
+	background: transparent;
+	border: none;
+	height: 44px;
+	width: 180px;
+}
+
+.footer-send-email input::placeholder {
+	color: #6B5D53;
+}
+
+.footer-send-email button {
+	height: 44px;
+	width: 44px;
+	background-color: #E8A33D;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 16px;
+	font-weight: 700;
+}
