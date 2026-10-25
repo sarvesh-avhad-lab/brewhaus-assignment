@@ -1261,3 +1261,32 @@ footer {
 	font-size: 16px;
 	font-weight: 700;
 }
+
+.footer-strip {
+	margin: 1px 112px;
+}
+
+.strip-container {
+	display: flex;
+	padding: 29px 40px;
+	justify-content: space-between;
+}
+
+.strip-container p {
+	font-size: 14px;
+	color: #A8968A;
+}
+
+.strip-container a {
+	height: 44px;
+	width: 140px;
+	display: flex;
+	padding: 14px 18px 13px 18px;
+	gap: 10px;
+	background-color: #E8A33D;
+	border-radius: 999px;
+
+	color: #1A130F;
+	font-size: 14px;
+	font-weight: 700;
+}
