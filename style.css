@@ -1270,6 +1270,7 @@ footer {
 	display: flex;
 	padding: 29px 40px;
 	justify-content: space-between;
+	background-color: #120D0A;
 }
 
 .strip-container p {
