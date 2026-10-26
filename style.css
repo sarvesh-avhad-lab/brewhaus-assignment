@@ -642,13 +642,16 @@ body {
 	font-size: 16px;
 	font-weight: 700;
 	color: #9A5B12;
+	letter-spacing: 0.14em;
 	gap: 14px;	
 }
 
 .pricing-upper h2 {
 	font-family: var(--font);
-	font-size: 48px;	
-	font-weight: 800;	
+	font-size: 48px;		
+	font-weight: 800;
+	line-height: 1.08;
+	letter-spacing: -0.03em;	
 }
 
 .monthy-yearly-change {
@@ -665,7 +668,7 @@ body {
 }
 
 .save-discount {
-	font-size: 16px;
+	font-size: 13px;
 	color: #7A4508;
 	font-weight: 700;
 	background-color: #FBEDD3;
@@ -728,10 +731,21 @@ body {
 	margin-bottom: 4px;
 }
 
+.doller-price P {
+	color: #6B5D53;
+	font-size: 16PX;
+}
+
 .doller-price span {
 	font-family: var(--font);
 	font-size: 52px;
 	font-weight: 800;
+	letter-spacing: -0.03em;
+	color: #1A130F;
+}
+
+.card-2nd-p {
+	font-size: 14px;
 }
 
 .plan-includes {
@@ -751,6 +765,7 @@ body {
 	align-items: center;
 	gap: 10px;
 	color: #1A130F;
+	font-size: 15px;
 }
 
 .choose-plan-btn {
