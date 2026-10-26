@@ -1748,9 +1748,37 @@ footer {
 	.pricing-lower {
 		display: flex;
 		flex-direction: column;
-		
 	}
 
+	/* Review Section  */
+	.review-section {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.review-container {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.review-top {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.review-top-right {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.review-middle {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+	}
 
 	
 }
