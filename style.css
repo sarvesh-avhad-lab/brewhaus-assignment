@@ -255,10 +255,9 @@ body {
 }
 
 .why-boxes {
-	display: flex;
+	display: flex; 
 	gap: 24px;
 	margin-top: 38px;
-	display: flex;
 	height: 282px;
 	width: 1120px;
 }
