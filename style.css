@@ -121,6 +121,45 @@ body {
 	
 }
 
+/* Hamburger icon  */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A130F;
+  height: 368px;
+  width: 390px;
+  padding: 24px 20px;
+
+} 
+
+.hamburger .options {
+	display: flex;
+	justify-content: space-between;
+	height: 64px;
+	width: 350px;
+	padding: 16px 0px;
+}
+
+.hamburger .options h3 {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.hamburger .options img {
+	height: 20px;
+	width: 20px;
+}
+
+#hamburger-icon {
+	display: none;
+}
+
+
+/* Ensure navbar relative positioning for absolute dropdown menu */
+.nav-bar {
+  position: relative;
+}
+
 /* hero-container  */
 .hero-container {
 	width: 100%;
@@ -240,6 +279,7 @@ body {
 	height: 22px;
 	width: 22px;
 }
+
 /* Why section  */
 .why-brewhaus-section {
 	width: 100%;
