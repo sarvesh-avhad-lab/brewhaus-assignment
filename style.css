@@ -1658,6 +1658,34 @@ footer {
 		line-height: 1.55;
 	}
 
+	/* Our story section  */
+	.story-section {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 15px;
+	}
+
+	.story-left img {
+		max-width: 100%;
+		display: block;
+		object-fit: cover
+	}
+
+	#hours-img {
+		display: none;
+	}
+
+	.story-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+
+
 
 
 
