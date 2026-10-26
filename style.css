@@ -860,11 +860,22 @@ body {
 	font-family: var(--font);
 	font-weight: 800;
 	color: #FFFFFF;
+	line-height: 1.08;
+	letter-spacing: -0.03em;
 }
 
 .review-top-right {
 	display: flex;
 	gap: 12px;
+}
+
+.go-left img,
+.go-right img {
+	height: 22px;
+	width: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .review-top-right div {
@@ -906,6 +917,8 @@ body {
 	color: #FFFFFF;
 	font-size: 26px;
 	font-weight: 500;
+	line-height: 1.45;
+	max-width: 792px;
 }
 
 .reviewer-name h5 {
@@ -1103,10 +1116,9 @@ body {
 	color: #1A130F;
 }
 
-
-
 .question  h2 {
 	font-size: 19px;
+	font-size: 700;
 	color: #1A130F;
 }
 
@@ -1123,7 +1135,7 @@ body {
 }
 
 .answer {
-	font-size: 16px;
+	font-size: 16px;	
 	line-height: 1.7;
 	font-family: "DM Sans";
 	color: 6B5D53;
@@ -1157,7 +1169,7 @@ body {
 }
 
 .contact-left span {
-	font-size: 13px;
+	font-size: 13px;		
 	color: #9A5B12;
 	font-weight: 700;
 	letter-spacing: 0.14em;
@@ -1184,6 +1196,8 @@ body {
 	align-items: center;
 
 	color: #1A130F;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 .email-contact img,
@@ -1238,6 +1252,7 @@ select {
 #write-message {
 	height: 150px;
 	width: 100%;
+	padding-bottom: 120px;
 }
 
 .submit-field {
@@ -1249,6 +1264,7 @@ select {
 
 .submit-field p {
 	color: #6B5D53;
+	font-size: 14px;	
 }
 
 /* Footer section  */
@@ -1281,10 +1297,15 @@ footer {
 	margin: 0px;
 }
 
+.footer-column1 .footer-logo h1 {
+	font-size: 22px;
+	color: #F3E9DF;
+}
+
 .footer-column1 p {
 	font-size: 15px;
 	line-height: 1.6;
-	color: #CDBBAA;
+	color: #CDBBAA;	
 }
 
 .social-media {
@@ -1325,17 +1346,34 @@ footer {
 	margin-bottom: 6px;
 }
 
+.footer-column3 h2 {
+	line-height: 21px;
+}
+
+
 .footer-column2  a {
 	text-decoration: none;
 	color: #CDBBAA;
 	font-size: 15px;
 }
 
-.footer-column3 p,
-.footer-column4 p {
+.footer-column2 p {
+	font-size: 15px;	
+	color: #CDBBAA;
+}
+
+.footer-column3 p {
+	line-height: 23px;
 	color: #CDBBAA;
 	font-size: 15px;
 }
+
+.footer-column4 {
+	line-height: 1.6;
+	color: #CDBBAA;
+	font-size: 15px;
+}
+
 
 .footer-column4 .footer-send-email {
 	background-color: #2A1F19;
@@ -1392,7 +1430,7 @@ footer {
 
 .strip-container a {
 	height: 44px;
-	width: 140px;
+	width: auto;
 	display: flex;
 	padding: 14px 18px 13px 18px;
 	gap: 10px;
@@ -1402,4 +1440,9 @@ footer {
 	color: #1A130F;
 	font-size: 14px;
 	font-weight: 700;
+}
+
+.strip-container a img {
+	height: 16px;
+	width: 16px;
 }
