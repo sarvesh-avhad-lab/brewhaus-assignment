@@ -636,6 +636,8 @@ body {
 	width: auto;
 	display: flex;
 	gap: 24px;
+
+	position: relative;
 }
 
 .edge-price-card {
@@ -749,9 +751,9 @@ body {
 	align-items: center;
 	padding: 10px 15px;
 
-	position: relative;
-	left: 250px;
-	bottom: 12px;
+	position: absolute;
+	left: 500px;
+	bottom: 450px;
 }
 
 /* Review sectio   */
