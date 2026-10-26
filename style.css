@@ -1566,5 +1566,47 @@ footer {
 		display: none;
 	}
 
+	/* Hero section  */
+	.hero-container {
+		max-width: 390px;
+		margin: 0px;
+		padding-top: 96px;
+		padding-left: 20px;
+	}
+
+	.special-coffee {
+		font-size: 11px;
+		height: 30px;
+		width: 251px;
+	}
+
+	.hero-heading {
+		height: 137px;
+		width: 350px;
+		font-size: 44px;
+	}
+
+	.hero-para {
+		height: 82px;
+		width: 350px;
+		font-size: 17px;
+	}
+
+	.hero-buttons {
+		display: flex;
+		flex-direction: column;
+		height: 122px;
+		width: 350px;
+	}
+
+	.start-btn,
+	.explore-btn {
+		width: 100%;
+	}
+
+	.scroll-btn {
+		display: none;
+	}
+
 	
 }
