@@ -955,6 +955,9 @@ body {
 }
 
 /* gallery-section  */
+
+/* 
+
 .gallery-section {
 	width: 100%;
 	height: auto;
@@ -1033,8 +1036,54 @@ body {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+} 
+	
+*/
+
+/* *************************************************************************** */
+
+
+.gallery-section {
+	width: 100%;
+	height: auto;
+	background-color: #F7F2EC;
+	padding: 88px 112px;
 }
 
+.gallery-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 44px;
+}
+
+.gallery-container p {
+	font-size: 13px;
+	font-weight: 700;
+	color: #9A5B12;
+	letter-spacing: 0.14em;
+}
+
+.gallery-container h2 {
+	font-size: 48px;
+	font-family: var(--font);
+	line-height: 1.08px;
+	letter-spacing: -0.03em;
+	color: #1A130F;
+	font-weight: 800;
+}
+
+.gallery-photos-container {
+	width: 100%;
+	height: 1140px;
+	display: grid;
+
+}
+
+
+
+/* *************************************************************************** */
 
 /* FAQ section  */
 .faq-section {
