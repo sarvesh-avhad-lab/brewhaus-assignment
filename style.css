@@ -264,15 +264,18 @@ body {
 }
 
 .why-container h3 {
-	color: #9a5b12;
+	color: #9A5B12;
 	font-weight: 700;
 	font-size: 13px;
+	letter-spacing: 0.14em;
 }
 
 .why-container h2 {
 	font-family: var(--font);
 	font-size: 48PX;
-	font-weight: 800;
+	font-weight: 800;	
+	letter-spacing: -0.03em;
+	line-height: 1.08;
 }
 
 .why-container p {
@@ -282,6 +285,7 @@ body {
 	font-weight: 400;
 	text-align: center;
 	color: #6B5D53;
+	line-height: 1.6;
 }
 
 .why-boxes {
@@ -306,6 +310,7 @@ body {
 
 .card h2 {
 	font-size: 21px;
+	font-weight: 700;
 	color: #1A130F;
 	width: 206px;
 	height: auto;
@@ -316,6 +321,8 @@ body {
 	width: 206px;
 	height: auto;
 	text-align: left;
+	line-height: 1.6;
+	columns: #6B5D6B;
 }
 
 .why-boxes img {
