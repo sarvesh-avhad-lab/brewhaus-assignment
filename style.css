@@ -22,9 +22,7 @@ body {
 
 .main-container {
 	width: 100%;
-	border: 2px solid black;
-    width: 100%;
-    max-width: 1425px;
+    max-width: none;
     margin: 0 auto;
 }
 
@@ -35,8 +33,8 @@ body {
 	background-size: cover;       
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 1423px;
-	height: 720px;
+	width: 100%;
+	min-height: 720px;
 }
 
 .navbar-container {
@@ -46,12 +44,16 @@ body {
 }
 
 .nav-bar {
-	height: 84px;
-	width: 1199px;
-	display: flex;
-	justify-content: space-between;
-	margin: auto 112px;
-	align-items: center;
+	width: 100%;
+    max-width: 1199px;
+    min-height: 84px;
+
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Navbar left  */
