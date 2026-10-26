@@ -775,14 +775,16 @@ body {
 	padding: 88px 112px;
 
 	display: flex;
+	justify-content: center;
 }
 
 .review-container {
-	padding: 0px 40px;
+	/* padding: 0px 40px; */
 	display: flex;
 	flex-direction: column;
 	gap: 44px;
 
+	max-width: 1140px;
 }
 
 .review-top {
