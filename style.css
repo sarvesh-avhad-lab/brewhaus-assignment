@@ -294,7 +294,7 @@ body {
 
 .why-container {
 	width: 1199px;
-	height: 489px;
+	height: auto;
 	/* margin: 88px 112px; */
 	display: flex;
 	flex-direction: column;
@@ -1607,6 +1607,59 @@ footer {
 	.scroll-btn {
 		display: none;
 	}
+
+	/* Why brewhaus section  */
+	.why-brewhaus-section {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.why-container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+
+	.why-container h2 {
+		width: 290px;
+	}
+
+	.why-container p {
+		width: 330px;
+	}
+
+	.why-boxes {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+
+	.card {
+		width: 330px;
+		height: auto;
+	}
+
+	.card img {
+		height: 48px;
+		width: 48px;
+	}
+
+	.card h2 {
+		font-size: 17px;
+		height: 22px;
+		width: 242px;	
+	}
+
+	.card p {
+		font-size: 14px;
+		line-height: 1.55;
+	}
+
+
+
 
 	
 }
