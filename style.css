@@ -737,6 +737,23 @@ body {
 	background-color: #E8A33D;
 }
 
+.most-popular-div {
+	height: 32px;
+	width: 141px;
+	background-color: #E8A33D;
+	color: #1A130F;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+
+	position: relative;
+	left: 250px;
+	bottom: 12px;
+}
+
 /* Review sectio   */
 
 .review-section {
