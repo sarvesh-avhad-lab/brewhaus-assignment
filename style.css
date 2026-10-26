@@ -23,7 +23,7 @@ body {
 .main-container {
 	width: 100%;
     max-width: none;
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* Navbar and hero section  */
@@ -121,16 +121,17 @@ body {
 
 /* hero-container  */
 .hero-container {
-	width: 1199px;
-	height: 635px;
-	margin: auto 112px;
+	width: 100%;
+	max-width: 1199px;
+	min-height: 635px;
+	margin: 0 auto;
 
 	display: flex;
 	flex-direction: column;
+	gap: 28px;
 
 	padding-top: 95px;
 	padding-left: 40px;
-	gap: 28px;
 }
 
 #special-coffee {
@@ -221,7 +222,11 @@ body {
 	width: 100%;
 	height: auto;
 	background-color: #F7F2EC;
+	margin: auto;
 	padding: 88px 112px;
+
+	display: flex;
+	justify-content: center;
 }
 
 .why-container {
@@ -301,6 +306,9 @@ body {
 	height: auto;
 	background-color: #FFFFFF;
 	padding: 88px 112px;
+	
+	display: flex;
+	justify-content: center;
 }
 
 .story-container {
@@ -414,6 +422,7 @@ body {
 	display: flex;
 	gap: 68px;
 	background-color: #1A130F;
+	justify-content: center;
 }
 
 .counter-section div {
@@ -764,6 +773,8 @@ body {
 	height: auto;
 	background-color: #1A130F;
 	padding: 88px 112px;
+
+	display: flex;
 }
 
 .review-container {
@@ -771,6 +782,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 44px;
+
 }
 
 .review-top {
