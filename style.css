@@ -1666,6 +1666,7 @@ footer {
 		padding: 15px;
 	}
 
+
 	.story-left img {
 		max-width: 100%;
 		display: block;
@@ -1684,9 +1685,29 @@ footer {
 		margin: 0;
 	}
 
+	.story-right {
+		margin: 0;
+		padding: 20px;
+		width: 100%;
+		height: auto;
 
+		display: flex;
+		flex-direction: column;
+		gap: 10px;	
+	}
 
+	.story-right p {
+		height: 74px;
+		max-width: 319px;
+	}
 
+	.checks {
+		margin-top: 80px;
+	}
+
+	.read-story-btn {
+		width: 100%;
+	}
 
 
 	
