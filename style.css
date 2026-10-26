@@ -972,13 +972,18 @@ body {
 	height: auto;
 	padding: 88px 112px;
 	background-color: #FFFFFF;
+
+	display: flex;
+	justify-content: center;
 }
 
 .faq-container {
 	display: flex;
 	justify-content: space-between;
 	gap: 192px;
-	padding: 0px 40px		;
+	padding: 0px 40px;
+	
+	max-width: 1189px;
 }
 
 .faq-left {
