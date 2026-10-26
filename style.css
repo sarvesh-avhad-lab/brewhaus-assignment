@@ -384,12 +384,16 @@ body {
 	font-size: 13px;
 	color: #9A5B12;
 	font-weight: 700;
+	letter-spacing: 0.14em;
 }
 
 .story-right h2 {
 	font-family: var(--font);
 	font-size: 48px;
-	font-weight: 900;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	line-height: 1.08;
+	max-width: 524px;
 }
 
 .story-right p {
@@ -421,6 +425,8 @@ body {
 
 	font-size: 17px;
 	font-weight: 400;
+	color: #1A130F;
+	line-height: 1.5;
 }
 
 .read-story-btn {
@@ -439,7 +445,7 @@ body {
 	font-size: 15px;
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 700;
 }
 
@@ -467,6 +473,7 @@ body {
 
 .counter-section h3 {
 	color: #CDBBAA;
+	font-size: 16px;
 }
 
 .counter-section span {
@@ -474,6 +481,8 @@ body {
 	font-size: 56px;
 	font-weight: 900;
 	color: #E8A33D;
+	line-height: 1;
+	letter-spacing: -0.03em;
 }
 
 /* menu section  */
@@ -491,6 +500,7 @@ body {
 
 .menu-section span {
 	font-size: 13px;
+	letter-spacing: 0.14em;
 	font-weight: 700;
 	color: #9A5B12;
 }
@@ -524,11 +534,12 @@ body {
 	width: fit-content;	
 	padding: 10px 15px;
   	box-sizing: border-box;
-
+	color: #1A130F;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	font-size: 15px;
+	font-weight: 500;
 	margin-top: 26px;	
 }
 
@@ -565,6 +576,7 @@ body {
 	color: #9A5B12;
 	font-size: 12px;
 	font-weight: 700;
+	letter-spacing: 0.1em;
 }
 
 .menu-card p {
@@ -583,7 +595,7 @@ body {
 }
 
 .price-buy price {
-	font-weight: 800;
+	font-weight: 800;	
 	font-size: 22px;
 	color: #1A130F;
 	font-family: var(--font);
