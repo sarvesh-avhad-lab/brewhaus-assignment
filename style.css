@@ -1466,6 +1466,15 @@ footer {
 /* ******* Media Queries ******* */
 
 /* Mobile View  */
-@media (max-width: 360px) {
+@media (max-width: 480px) {
 	
+	html {
+		width: 100%;
+	}
+
+	body {
+		width: 100%;
+		min-width: 0;
+		margin: 0;
+	}
 }
