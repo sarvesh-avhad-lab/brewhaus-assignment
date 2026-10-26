@@ -1709,6 +1709,16 @@ footer {
 		width: 100%;
 	}
 
+	/* Counter section  */
+	.counter-section {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		align-items: center;
+	}
+
 
 	
 }
