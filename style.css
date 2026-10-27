@@ -160,6 +160,12 @@ body {
 	display: none;
 }
 
+#hamburger-icon-img {
+	display: none;
+	width: 	44px;
+	height: 44px;
+}
+
 .nav-bar {
   position: relative;
 }
@@ -1620,6 +1626,10 @@ footer {
 		display: none;
 	}
 
+	.navbar-right {
+		margin: 0;
+	}
+
 	.navbar-right .subscribe-btn {
 		display: none;
 	}
@@ -1627,6 +1637,11 @@ footer {
 	#hamburger-icon {
 	/* display: block; */
 	}
+
+	#hamburger-icon-img {
+		display: block;
+	}
+
 
 	/* Hero section  */
 	.hero-container {
@@ -2062,6 +2077,10 @@ footer {
 
 	.navbar-right .subscribe-btn {
 		display: none;
+	}
+
+	#hamburger-icon-img {
+		display: block;
 	}
 
 	/* Hero section  */
