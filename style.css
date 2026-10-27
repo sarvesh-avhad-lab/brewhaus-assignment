@@ -1826,10 +1826,24 @@ footer {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
+		padding: 10px;
 	}
 
-	.faq-left {
-		/* align-items: center	;	 */
+	.question-container {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+	}
+
+	.question {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.question {
+		width: 250px;
+		height: auto;
 	}
 
 
