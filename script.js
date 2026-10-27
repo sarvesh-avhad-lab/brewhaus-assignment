@@ -16,7 +16,6 @@ textChanger()
 setInterval(textChanger, 2000);
 
 
-// ************************************ //
 // Our menu section 
 
 const allbtn = document.querySelector("#all");
@@ -67,9 +66,9 @@ function cardHider(option) {
 
 }
 
- 
-const allMenuOptions = document.querySelectorAll(".menu-button");
+// Hightlight menu option
 
+const allMenuOptions = document.querySelectorAll(".menu-button");
 
 allbtn.classList.add("bgcolorClass");
 
@@ -81,3 +80,8 @@ function highlightButton(clickedBtn) {
 
     clickedBtn.classList.add("bgcolorClass");
 }
+
+// Subscription plans;
+
+// Explorer plan
+const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48']
