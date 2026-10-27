@@ -2166,7 +2166,26 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		
+	}
+
+	/* Pricing section  */
+	.pricing-section {
+		padding: 20px;
+	}
+
+	.pricing-container {
+		width: 100%;
+		height: auto;
+	}
+
+	.pricing-lower {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.most-popular-div { 
+		left: 100px;
+		bottom: 920px;
 	}
 
 }
