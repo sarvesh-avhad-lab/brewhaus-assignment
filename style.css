@@ -2313,4 +2313,38 @@ footer {
 		width: 100%;
 	} 	
 
+	/* Footer section  */
+	.main-footer {
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.footer-column1 p {
+		width: 250px;
+	}
+
+	.footer-strip {
+		margin: 0;
+	}
+
+	.strip-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;	
+		align-items: center;
+		gap: 10px;
+	}
+
+	.back-to-btn {
+		display: flex;
+		width: 50px;
+	}
+
 }
