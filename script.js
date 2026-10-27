@@ -124,3 +124,4 @@ checkBox.addEventListener("change", function() {
 	}
 });
 
+// FAQ Section
