@@ -1903,3 +1903,15 @@ footer {
 
 	
 }
+
+
+/**********  Tablet View  *********/
+@media (max-width: 768px) and (min-width: 390px) {
+	.main-container {
+		display: none;
+	}
+
+	body {
+		display: none;
+	}
+}
