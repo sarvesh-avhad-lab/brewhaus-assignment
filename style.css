@@ -616,7 +616,7 @@ body {
 	text-align: center;
 	font-size: 15px;
 	font-weight: 500;
-	margin-top: 26px;	
+	margin-top: 26px;
 }
 
 .menu-button:hover {
@@ -644,6 +644,11 @@ body {
 
 .menu-card.hide {
 	display: none;
+}
+
+.menu-button.bgcolorClass {
+	background-color: #2A1F19;
+	color: #FFFFFF;
 }
 
 .menu-card img {

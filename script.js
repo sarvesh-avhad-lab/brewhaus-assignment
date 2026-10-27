@@ -26,21 +26,26 @@ const dessertsbtn = document.querySelector("#desserts");
 
 const allMenuCards = document.querySelectorAll(".menu-card");
 
+
 // adding events
 allbtn.addEventListener("click", function() {
 	cardHider("all");
+	highlightButton(allbtn);
 });
 
 hotbtn.addEventListener("click", function() {
 	cardHider("hot-card");
+	highlightButton(hotbtn);
 });
 
 coldbtn.addEventListener("click", function() {
 	cardHider("cold-card");
+	highlightButton(coldbtn);
 });
 
 dessertsbtn.addEventListener("click", function () {
 	cardHider("desserts-card");
+	highlightButton(dessertsbtn);
 });
 
 
@@ -59,6 +64,20 @@ function cardHider(option) {
 		}
 
 	}
+
 }
 
+ 
+const allMenuOptions = document.querySelectorAll(".menu-button");
 
+
+allbtn.classList.add("bgcolorClass");
+
+function highlightButton(clickedBtn) {
+
+    for (const ele of allMenuOptions){
+		ele.classList.remove("bgcolorClass");
+	}
+
+    clickedBtn.classList.add("bgcolorClass");
+}
