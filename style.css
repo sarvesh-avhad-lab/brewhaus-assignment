@@ -2291,4 +2291,26 @@ footer {
 		height: auto;
 	}
 
+	/* Contact section  */
+	.contact-section {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		padding: 0;
+		gap: 20px;	
+		padding: 10px;
+	}
+
+	.contact-right form {
+		padding: 15px;
+		width: 100%;
+	} 	
+
 }
