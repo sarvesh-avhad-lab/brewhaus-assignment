@@ -1,7 +1,6 @@
-
+// Dynamic hero heading text changing
 
 const words = ['weekends', 'mornings', 'deep work', 'slow sundays'];
-
 const word = document.getElementById("text-changer");
 
 let i = 0;
@@ -14,3 +13,6 @@ function textChanger() {
 textChanger() 
 
 setInterval(textChanger, 2000);
+
+
+// Our menu section 

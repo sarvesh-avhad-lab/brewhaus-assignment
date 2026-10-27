@@ -369,6 +369,12 @@ body {
 	border-radius: 20px;
 }
 
+.why-card-text {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
 .card h2 {
 	font-size: 21px;
 	font-weight: 700;
@@ -591,7 +597,6 @@ body {
 }
 
 .menu-button {
-	/* background-color: #1A130F; */
 	background-color: #FFFFFF;
 	border: 0.89px solid black;
 	border-radius: 999px;
@@ -1695,10 +1700,22 @@ footer {
 	}
 
 	.card {
-		height: auto;
-		padding: 10px;
+		height: 166px;
+		padding: 30px;
 		width: 100%;
+		display: flex;
+		flex-direction: row;
+		
 	}
+
+	.why-card-text {
+		height: 72px;
+		width: 242px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
 
 	.card img {
 		height: 48px;
@@ -1714,6 +1731,7 @@ footer {
 	.card p {
 		font-size: 14px;
 		line-height: 1.55;
+		max-width: 100%;
 	}
 
 	/* Our story section  */
