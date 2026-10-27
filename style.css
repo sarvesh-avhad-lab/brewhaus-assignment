@@ -1812,5 +1812,26 @@ footer {
 		object-fit: cover; 
 	}
 
+
+	/* FAQ ssection  */
+	.faq-section {
+		width: 100%;
+		height: auto;
+		padding: 10px;
+	}
+
+	.faq-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.faq-left {
+		/* align-items: center	;	 */
+	}
+
+
 	
 }
