@@ -201,11 +201,18 @@ body {
 	font-size: 76px;
 	font-weight: 800;
 	color: #FFFFFF;
-	line-height: 1.1; 
+	line-height: 1.02; 
+	letter-spacing: -0.035em;	
+
 } 
 
 .hero-heading span {
 	color: #E8A33D;
+	letter-spacing: -2.66px;	
+	line-height: 78px;
+	font-size: 76px;
+	font-weight: 800;
+	font-family: var(--font);
 }
 
 .hero-para {
