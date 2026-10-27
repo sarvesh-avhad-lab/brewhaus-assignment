@@ -1638,9 +1638,9 @@ footer {
 	}
 
 	.card {
-		width: 330px;
 		height: auto;
 		padding: 10px;
+		width: 100%;
 	}
 
 	.card img {
@@ -1868,13 +1868,35 @@ footer {
 		padding: 0;
 	}
 
-	.contact-right {
-
-	}
-
 	.contact-right form {
 		padding: 15px;
 		width: 100%;
+	}
+
+	/* Footer section  */
+	.main-footer {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		width: 100%;
+	}
+
+	.footer-strip {
+		margin: 0;
+	}
+
+	.strip-container {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;	
+	}
+
+	.back-to-btn {
+		display: flex;
+		width: 50px;
 	}
 
 
