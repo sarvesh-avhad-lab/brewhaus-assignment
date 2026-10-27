@@ -1906,12 +1906,70 @@ footer {
 
 
 /**********  Tablet View  *********/
-@media (max-width: 768px) and (min-width: 390px) {
-	.main-container {
-		display: none;
+@media (min-width: 390px) and (max-width: 768px){
+	
+	html {
+		width: 100%;
 	}
 
 	body {
+		width: 100%;
+		min-width: 0;
+		margin: 0;
+	}
+
+	.main-container {
+		width: 100%;
+		min-width: 0;
+		margin: 0;
+	}
+
+	/* navbar section  */
+
+	.navbar-hero-section {
+		width: 100%;	
+		margin: auto;
+
+		background-image: url(./images/hero-bg.png);
+		background-size: cover;       
+		background-repeat: no-repeat;
+	}
+
+	.navbar-container {
+		margin: 0px;
+		width: 100%;
+	}
+
+	.nav-bar {
+		margin: 0;
+		width: 100%;
+	}
+	
+	.navbar-left {
+		margin: 0;
+	}
+
+	.navbar-left img {
+		position: absolute;
 		display: none;
 	}
+
+	.navbar-left h1 {
+		height: 27px;
+		width: 109px;
+		font-family: var(--font);
+		font-size: 22px;
+		font-weight: 800;
+	}
+
+	.navbar-middle {
+		display: none;
+	}
+
+	.navbar-right .subscribe-btn {
+		display: none;
+	}
+
+	
+
 }
