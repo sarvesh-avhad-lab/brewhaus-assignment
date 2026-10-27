@@ -1663,6 +1663,12 @@ footer {
 		font-size: 44px;
 	}
 
+	.hero-heading span {
+		height: 137px;
+		width: 350px;
+		font-size: 44px;
+	}
+
 	.hero-para {
 		height: 82px;
 		width: 350px;
@@ -2098,6 +2104,12 @@ footer {
 	}
 
 	.hero-heading {
+		height: 100px;
+		width: 500px;
+		font-size: 44px;
+	}
+
+	.hero-heading span {
 		height: 100px;
 		width: 500px;
 		font-size: 44px;

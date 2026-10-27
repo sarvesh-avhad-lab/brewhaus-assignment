@@ -7,7 +7,8 @@ let i = 0;
 
 function textChanger() {
 	word.textContent = words[i];
-	i = (i + 1) % words.length;
+	i++;
+	if(i==4) i=0;
 }
 
 textChanger() 
