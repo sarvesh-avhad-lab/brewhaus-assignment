@@ -1771,6 +1771,11 @@ footer {
 		flex-direction: column;
 	}
 
+	.most-popular-div { 
+		left: 100px;
+		bottom: 920px;
+	}
+
 	/* Review Section  */
 	.review-section {
 		width: 100%;
