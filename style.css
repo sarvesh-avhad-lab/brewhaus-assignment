@@ -2155,4 +2155,18 @@ footer {
 		align-items: center;
 	}
 
+	/* our menu section  */
+	.menu-section {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.menu-cards-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+	}
+
 }
