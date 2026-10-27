@@ -1348,7 +1348,16 @@ input:checked + .slider:before {
 	padding-right: 60px;
 	padding-bottom: 24px;
 	width: 528px;
+
+	/* display: none; */
 }
+
+/* .question:hover + .answer {
+	display: flex;
+	cursor: pointer;	
+} */
+
+
 
 /* contact section  */
 .contact-section {
