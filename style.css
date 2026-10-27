@@ -2082,4 +2082,65 @@ footer {
 		line-height: 1.55;
 	}
 
+	/* Our story section  */
+	.story-section {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 15px;
+	}
+
+	#hours-img {
+		display: none;
+	}
+
+	.story-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.story-left {
+		display: flex;
+		justify-content: center;
+		align-items: center	;
+	}
+	.story-left img {
+		max-width: 100%;
+		object-fit: cover;
+	}
+
+	.story-right {
+		margin: 0;
+		padding: 20px;
+		width: 100%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+		gap: 10px;	
+		justify-content: center;
+		align-items: center;
+	}
+
+	.story-right h2 {
+		height: auto;
+		max-width: 530px;
+	}
+
+	.story-right p {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.checks {
+		margin: 20px;
+	}
+
+	.read-story-btn {
+		width: 100%;
+	}
+
 }
