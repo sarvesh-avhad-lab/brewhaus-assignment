@@ -1901,11 +1901,14 @@ footer {
 	}
 
 	.strip-container {
-		width: 50%;
+		width: 100%;
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		margin: 0;
 		padding: 10px;	
+		align-items: center;
+		gap: 10px;
 	}
 
 	.back-to-btn {
