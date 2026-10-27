@@ -82,6 +82,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
+}
+
+.navbar-middle a {
+	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 15px;
 	font-weight: 500;
@@ -2346,5 +2351,7 @@ footer {
 		display: flex;
 		width: 50px;
 	}
+
+
 
 }
