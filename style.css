@@ -503,6 +503,10 @@ body {
 	font-weight: 700;
 }
 
+.read-story-btn:hover {
+	background-color: #2A1F19;
+}
+
 /* Counter section  */
 .counter-section {
 	height: 211px;
@@ -597,6 +601,10 @@ body {
 	margin-top: 26px;	
 }
 
+.menu-button:hover {
+	border: #120D0A;
+}
+
 /* menu cards  */
 .menu-cards-container {
 	margin: 40px;
@@ -669,6 +677,14 @@ body {
 	color: #1A130F;
 	font-size: 14px;
 	font-weight: 700;
+}
+
+.buy-btn:hover {
+	background-color: #120D0A;
+}
+
+.buy-btn:hover a {
+	color: #FFFFFF;
 }
 
 .pricing-section {
@@ -838,6 +854,11 @@ body {
 	font-weight: 700;
 }
 
+.choose-plan-btn:hover {
+	background-color: #2A1F19;
+	cursor: pointer;
+}
+
 .middle-price-card h2 {
 	color: #FFFFFF;	
 	font-weight: 700;
@@ -930,6 +951,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.go-left:hover,
+.go-right:hover {
+	background-color: #E8A33D;
+	cursor: pointer;
 }
 
 .review-top-right div {
@@ -1390,6 +1417,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.img-container:hover {
+	background-color: #E8A33D;
+	cursor: pointer;
 }
 
 .img-container img {
