@@ -1314,7 +1314,7 @@ input:checked + .slider:before {
 	color: #1A130F;
 }
 
-.question span {
+/* .question span {
 	height: 36px;
 	width: 36px;
 	border-radius: 50%;
@@ -1324,6 +1324,19 @@ input:checked + .slider:before {
 	align-items: center;
 	font-size: 19px;
 	font-weight: 700;
+} */
+
+.question a {
+	height: 36px;
+	width: 36px;
+	border-radius: 50%;
+	background-color: #E8A33D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 .answer {
