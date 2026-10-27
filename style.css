@@ -1755,6 +1755,7 @@ footer {
 	.price-buy {
 		justify-content: space-between;
 	}
+
 	/* Pricing section  */
 	.pricing-section {
 		padding: 20px;
@@ -2141,6 +2142,17 @@ footer {
 
 	.read-story-btn {
 		width: 100%;
+	}
+
+	/* Counter section  */
+	.counter-section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		align-items: center;
 	}
 
 }
