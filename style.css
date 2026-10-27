@@ -1839,10 +1839,16 @@ footer {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+		height: auto;
 	}
 
 	.question {
 		width: 250px;
+		height: auto;
+	}
+
+	.answer {
+		width: 100%;
 		height: auto;
 	}
 
