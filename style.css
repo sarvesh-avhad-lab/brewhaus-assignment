@@ -2257,4 +2257,38 @@ footer {
 		object-fit: cover; 
 	}
 
+	/* FAQ ssection  */
+	.faq-section {
+		width: 100%;
+		height: auto;
+		padding: 40px;
+	}
+
+	.faq-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 10px;
+	}
+
+	.question-container {
+		display: flex;
+		flex-direction: column;	
+		width: 100%;
+	}
+
+	.question {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+	}
+
+	.answer {
+		width: 100%;
+		height: auto;
+	}
+
 }
