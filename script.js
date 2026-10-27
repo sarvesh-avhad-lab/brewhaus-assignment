@@ -83,5 +83,44 @@ function highlightButton(clickedBtn) {
 
 // Subscription plans;
 
+
+const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48'];
+
+const switchbtn = document.querySelector("#switch-btn");
+const checkBox = document.querySelector("#input-checkbox");
+
 // Explorer plan
-const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48']
+const explorerPrice = document.querySelector("#Explorer-dollar");
+const explorerPara = document.querySelector("#explorer-p");
+
+//Enthusiast plan 
+const enthusiastPrice = document.querySelector("#enthusiast-dollar");
+const enthusiastPara = document.querySelector("#enthusiast-p");
+
+// connoisseur plan 
+const connoisseurPrice = document.querySelector("#connoisseur-dollar");
+const connoisseurPara = document.querySelector("#connoisseur-p");
+
+checkBox.addEventListener("change", function() {
+	if (checkBox.checked) {
+		explorerPrice.textContent = "$14";
+        explorerPara.textContent = "Billed $168 yearly · save $48";
+
+		enthusiastPrice.textContent = "$23";
+        enthusiastPara.textContent = "Billed $276 yearly · save $72";
+
+		connoisseurPrice.textContent = "$39";
+        connoisseurPara.textContent = "Billed $468 yearly · save $120";
+    } 
+	else {
+		explorerPrice.textContent = "$18";
+		explorerPara.textContent = "Billed monthly · cancel anytime";
+
+		enthusiastPrice.textContent = "$29";
+        enthusiastPara.textContent = "Billed monthly · cancel anytime";
+
+		connoisseurPrice.textContent = "$49";
+        connoisseurPara.textContent = "Billed monthly · cancel anytime";
+	}
+});
+

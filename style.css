@@ -848,6 +848,9 @@ input:checked + .slider:before {
 
 /***** switch button end ******/
 
+
+
+
 /* Pricing lower  */
 .pricing-lower {
 	height: auto;
