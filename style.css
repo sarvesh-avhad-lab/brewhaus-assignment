@@ -1566,6 +1566,10 @@ footer {
 		display: none;
 	}
 
+	#hamburger-icon {
+	/* display: block; */
+	}
+
 	/* Hero section  */
 	.hero-container {
 		max-width: 390px;
@@ -1724,7 +1728,7 @@ footer {
 	.menu-section {
 		width: 100%;
 		height: auto;
-		padding: 20px;
+		padding: 30px;
 	}
 
 	.menu-section h2 {
@@ -1736,6 +1740,21 @@ footer {
 		display: none;
 	}
 
+	.menu-section .menu-card p {
+		display: block;
+	}
+
+	.menu-cards-container {
+		margin: 0;
+	}
+
+	.menu-card {
+		width: 100%;
+	}
+
+	.price-buy {
+		justify-content: space-between;
+	}
 	/* Pricing section  */
 	.pricing-section {
 		padding: 20px;
