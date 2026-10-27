@@ -1554,6 +1554,10 @@ footer {
 	font-size: 15px;
 }
 
+.footer-column2  a:hover {
+	color: #E8A33D;
+}
+
 .footer-column2 p {
 	font-size: 15px;	
 	color: #CDBBAA;

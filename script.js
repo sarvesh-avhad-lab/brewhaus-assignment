@@ -84,7 +84,7 @@ function highlightButton(clickedBtn) {
 // Subscription plans;
 
 
-const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48'];
+// const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48'];
 
 const switchbtn = document.querySelector("#switch-btn");
 const checkBox = document.querySelector("#input-checkbox");
