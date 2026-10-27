@@ -1,7 +1,7 @@
 // Dynamic hero heading text changing
 
 const words = ['weekends', 'mornings', 'deep work', 'slow sundays'];
-const word = document.getElementById("text-changer");
+const word = document.querySelector("#text-changer");
 
 let i = 0;
 
@@ -18,7 +18,15 @@ setInterval(textChanger, 2000);
 // ************************************ //
 // Our menu section 
 
-const allbtn = document.getElementById("all");
-const hotbtn = document.getElementById("hot");
-const coldbtn = document.getElementById("cold");
-const dessertsbtn = document.getElementById("desserts");
+const allbtn = document.querySelector("#all");
+const hotbtn = document.querySelector("#hot");
+const coldbtn = document.querySelector("#cold");
+const dessertsbtn = document.querySelector("desserts");
+
+const allMenuCards = document.querySelectorAll(".menu-card");
+
+function btnClick(option) {
+	for(let i=0;i<allMenuCards.length.i++){
+		if()
+	}
+}
