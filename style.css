@@ -2223,4 +2223,38 @@ footer {
 		flex-direction: column;
 	}
 
+	/* Gallery section  */
+	.gallery-section {
+		padding: 10px;
+		width: 100%;	
+		height: auto;
+	}
+
+	.gallery-container {
+		width: 100%;
+		height: auto;
+	}
+
+	.gallery-container h2 {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.gallery-photos-container {
+		display: flex;
+		flex-direction: row	;
+		gap: 20px;
+		width: 100%;
+		height: auto; 
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.gallery-photos-container img {
+		width: 40%;
+		height: 180px; 
+		object-fit: cover; 
+	}
+
 }
