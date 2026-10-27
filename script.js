@@ -32,15 +32,15 @@ allbtn.addEventListener("click", function() {
 });
 
 hotbtn.addEventListener("click", function() {
-	cardHider("hot");
+	cardHider("hot-card");
 });
 
 coldbtn.addEventListener("click", function() {
-	cardHider("cold");
+	cardHider("cold-card");
 });
 
 dessertsbtn.addEventListener("click", function () {
-	cardHider("desserts");
+	cardHider("desserts-card");
 });
 
 
