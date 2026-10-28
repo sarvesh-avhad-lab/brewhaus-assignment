@@ -79,6 +79,22 @@ function highlightButton(clickedBtn) {
     clickedBtn.classList.add("bgcolorClass");
 }
 
+/*************************************** */
+
+const AddToCart = document.querySelector(".buy-btn a");
+const cart = document.querySelector(".item-counter");
+
+let counter = 2;
+
+AddToCart.addEventListener("click", function() {
+	increaseCounter();
+});
+
+function increaseCounter() {
+	counter++;
+	cart.textContent = counter;
+}
+
 
 /*************************************** */
 // Hamburger Icon click;
