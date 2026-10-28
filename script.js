@@ -86,7 +86,7 @@ const hamburger = document.querySelector("#hamburger-icon-img");
 const hamburgerMenu = document.querySelector(".hamburger");
 
 hamburger.addEventListener("click", function() {
-	hamburgerMenu.classList.add("showHamburger");
+	hamburgerMenu.classList.toggle("showHamburger");
 });
 
 

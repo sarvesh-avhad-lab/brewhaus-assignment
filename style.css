@@ -131,9 +131,14 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1A130F;
-  height: 368px;
-  width: 390px;
   padding: 24px 20px;
+  /* height: 368px;
+  width: 390px; */
+  width: 90%;
+  height: 100%;
+  
+  position: absolute;
+  z-index: 10;
 
 } 
 
@@ -156,8 +161,9 @@ body {
 	width: 20px;
 }
 
-#hamburger-menu {
+.hamburger {
 	display: none;
+	/* display: block; */
 }
 
 #hamburger-icon-img {
@@ -1741,8 +1747,8 @@ footer {
 		display: none;
 	}
 
-	#hamburger-menu.showHamburger {
-	display: block;
+	.hamburger.showHamburger {
+		display: block;
 	}
 
 	#hamburger-icon-img {
