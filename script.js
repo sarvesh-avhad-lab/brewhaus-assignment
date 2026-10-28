@@ -240,7 +240,7 @@ function reviewChanger() {
   	sliders[idx].classList.add('slider-selected');
 }
 
-setInterval(reviewChanger, 2000);
+setInterval(reviewChanger, 5000);
 
 
 
@@ -255,8 +255,8 @@ function rightCardChanger() {
   	sliders[idx].classList.remove('slider-selected');   
 	idx++;
 	if(idx === 4) idx = 0;
-	reviewCards[idx].classList.add('ReviewHider');    
-  	sliders[idx].classList.remove('slider-selected');   
+	reviewCards[idx].classList.remove('ReviewHider'); 
+  	sliders[idx].classList.add('slider-selected'); 
 }
 
 
@@ -269,7 +269,7 @@ function leftCardChanger() {
 	reviewCards[idx].classList.add('ReviewHider');    
   	sliders[idx].classList.remove('slider-selected');   
 	idx--;
-	if(idx === 0) idx = 4;
-	reviewCards[idx].classList.add('ReviewHider');    
-  	sliders[idx].classList.remove('slider-selected');   
+	if(idx === -1) idx = 3;
+	reviewCards[idx].classList.remove('ReviewHider'); 
+  	sliders[idx].classList.add('slider-selected');
 }
