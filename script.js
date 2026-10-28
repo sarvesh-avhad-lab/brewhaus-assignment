@@ -82,18 +82,13 @@ function highlightButton(clickedBtn) {
 
 
 // Hamburger Icon click;
-const hamburger = document.querySelector("#hamburger-icon-img");
-const hamburgerMenu = document.querySelector(".hamburger");
-
-hamburger.addEventListener("click", function() {
-	hamburgerMenu.classList.toggle("showHamburger");
-});
 
 
+
+
+/*************************************** */
 // Subscription plans;
 
-
-// const explorer = ['Billed monthly · cancel anytime', 'Billed $168 yearly · save $48'];
 
 const switchbtn = document.querySelector("#switch-btn");
 const checkBox = document.querySelector("#input-checkbox");

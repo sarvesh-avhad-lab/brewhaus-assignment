@@ -128,21 +128,24 @@ body {
 
 /* Hamburger icon  */
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #1A130F;
-  padding: 24px 20px;
-  height: 844px;
-  max-width: 390px;	
-  
-  position: fixed;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;	
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
 
-} 
+	background-color: #1A130F;
+	padding: 24px 20px;
+
+	height: 100vh;
+	width: 100%;
+	max-width: 390px;
+
+	z-index: 100;
+
+}
+
+.hamburger.showHamburger {
+	display: flex;
+}
 
 .hamburger-header {
   display: flex;
@@ -150,6 +153,17 @@ body {
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.hamburger-header .close-btn {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #E8A33D;
+	border-radius: 12px;
 }
 
 .hamburger-header h2 {
@@ -161,8 +175,8 @@ body {
 }
 
 .hamburger-header .close-btn img {
-	height: 44px;
-	width: 44px;
+	height: 22px;
+	width: 22px;
 }
 
 .hamburger-options-container {
@@ -177,14 +191,18 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid #FFFFFF1A;
 }
 
 .hamburger .options a {
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 700;	
+}
+
+.hamburger .options a:hover  {
+	color: #E8A33D;
 }
 
 .hamburger .options img {
@@ -197,11 +215,12 @@ body {
   padding-bottom: 20px;
 }
 
-
-
 .hamburger {
 	display: none;
-	/* display: block; */
+}
+
+.hamburger.showHamburger {
+    display: flex;
 }
 
 #hamburger-icon-img {
@@ -210,7 +229,12 @@ body {
 	height: 44px;
 }
 
-
+.hamburger-subscribe-btn  {
+	width: 100%;
+	text-decoration: none;
+	color: #2A1F19;
+	font-weight: 700;
+}
 
 /* hamburger section finish  */
 
@@ -1794,7 +1818,6 @@ footer {
 	}
 
 	.navbar-left img {
-		position: absolute;
 		display: none;
 	}
 
@@ -1818,7 +1841,7 @@ footer {
 		display: none;
 	}
 
-	 #hamburger-icon-img {
+	#hamburger-icon-img {
 		display: block;
 	}
 	
@@ -1827,6 +1850,23 @@ footer {
 		display: none; 
 	}
 
+
+	#hamburger-menu.showHamburger {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: auto;
+		width: 100%;
+		max-width: 390px;
+		height: 100vh;
+		z-index: 100;
+		display: flex;
+	}
+
+	#hamburger-icon-img {
+		display: block;
+		cursor: pointer;
+	}
 
 	/* Hero section  */
 	.hero-container {
