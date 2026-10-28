@@ -148,12 +148,12 @@ checkBox.addEventListener("change", function() {
 
 /*************************************** */
 // FAQ Section
-const expander1 = document.querySelector(".expander1");
-const expander2 = document.querySelector(".expander2");
-const expander3 = document.querySelector(".expander3");
-const expander4 = document.querySelector(".expander4");
-const expander5 = document.querySelector(".expander5");
-const expander6 = document.querySelector(".expander6");
+const question1 = document.querySelector(".question1");
+const question2 = document.querySelector(".question2");
+const question3 = document.querySelector(".question3");
+const question4 = document.querySelector(".question4");
+const question5 = document.querySelector(".question5");
+const question6 = document.querySelector(".question6");
 
 
 const answer1 = document.querySelector(".answer1");
@@ -163,34 +163,38 @@ const answer4 = document.querySelector(".answer4");
 const answer5 = document.querySelector(".answer5");
 const answer6 = document.querySelector(".answer6");
 
+const expander1 = document.querySelector(".expander1");
 
-expander1.addEventListener("click", function(){
-	expanderOnePrara(answer1);
+
+question1.addEventListener("click", function(){ 
+	paraExpander(answer1);
 });
 
-expander2.addEventListener("click", function(){
-	expanderOnePrara(answer2);
+question2.addEventListener("click", function(){
+	paraExpander(answer2);
 });
 
-expander3.addEventListener("click", function(){
-	expanderOnePrara(answer3);
+question3.addEventListener("click", function(){
+	paraExpander(answer3);
 });
 
-expander4.addEventListener("click", function(){
-	expanderOnePrara(answer4);
+question4.addEventListener("click", function(){
+	paraExpander(answer4);
 });
 
-expander5.addEventListener("click", function(){
-	expanderOnePrara(answer5);
+question5.addEventListener("click", function(){
+	paraExpander(answer5);
 });
 
-expander6.addEventListener("click", function(){
-	expanderOnePrara(answer6);
+question6.addEventListener("click", function(){
+	paraExpander(answer6);
 });
 
-function expanderOnePrara(showAnswer) {
+function paraExpander(showAnswer) {
 	showAnswer.classList.toggle('showPara');
 }
+
+
 
 
 

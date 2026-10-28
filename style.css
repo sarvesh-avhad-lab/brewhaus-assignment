@@ -1468,6 +1468,11 @@ input:checked + .slider:before {
 	display: block;
 }
 
+/* Expander icon bg change */
+.expander.changeExpander {
+	background-color: #E8A33D;
+}
+
 
 .answer {
 	font-size: 16px;	
