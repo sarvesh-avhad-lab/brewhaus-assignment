@@ -462,14 +462,27 @@ body {
 	padding-left: 28px;
 	border-radius: 20px;
 
-	box-shadow: 0 4px 6px #0000001a;
+	
+}
+
+/* Hover effect on the cards and gallery section  */
+
+.menu-card,
+.card,
+.gallery-photos-container img {
   	transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.card:hover {
+.card:hover,
+.menu-card:hover {
   box-shadow: 0 12px 24px #0000001e;
   transform: translateY(-4px);
 }
+
+.gallery-photos-container img:hover {
+	transform: scale(1.01);
+}
+
 
 .why-card-text {
 	display: flex;
