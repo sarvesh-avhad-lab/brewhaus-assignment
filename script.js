@@ -163,35 +163,52 @@ const answer4 = document.querySelector(".answer4");
 const answer5 = document.querySelector(".answer5");
 const answer6 = document.querySelector(".answer6");
 
+
 const expander1 = document.querySelector(".expander1");
+const expander2 = document.querySelector(".expander2");
+const expander3 = document.querySelector(".expander3");
+const expander4 = document.querySelector(".expander4");
+const expander5 = document.querySelector(".expander5");
+const expander6 = document.querySelector(".expander6");
 
 
 question1.addEventListener("click", function(){ 
 	paraExpander(answer1);
+	expanderChanger(expander1);
 });
 
 question2.addEventListener("click", function(){
 	paraExpander(answer2);
+	expanderChanger(expander2);
 });
 
 question3.addEventListener("click", function(){
 	paraExpander(answer3);
+	expanderChanger(expander3);
 });
 
 question4.addEventListener("click", function(){
 	paraExpander(answer4);
+	expanderChanger(expander4);
 });
 
 question5.addEventListener("click", function(){
 	paraExpander(answer5);
+	expanderChanger(expander5);
 });
 
 question6.addEventListener("click", function(){
 	paraExpander(answer6);
+	expanderChanger(expander6);
 });
 
+// Expander function
 function paraExpander(showAnswer) {
 	showAnswer.classList.toggle('showPara');
+}
+
+function expanderChanger(expander) {
+	expander.classList.toggle('changeExpander');
 }
 
 
