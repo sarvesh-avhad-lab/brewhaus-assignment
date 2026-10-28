@@ -130,36 +130,74 @@ body {
 .hamburger {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: #1A130F;
   padding: 24px 20px;
   height: 844px;
-  width: 390px;	
-  /* width: 90%;
-  height: 100%; */
+  max-width: 390px;	
   
-  position: absolute;
-  z-index: 10;
+  position: fixed;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;	
 
 } 
+
+.hamburger-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hamburger-header h2 {
+  color: #FFFFFF;
+  font-family: var(--font);
+  font-size: 22px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.hamburger-header .close-btn img {
+	height: 44px;
+	width: 44px;
+}
+
+.hamburger-options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-between;
+}
 
 .hamburger .options {
 	display: flex;
 	justify-content: space-between;
-	height: 64px;
-	width: 350px;
-	padding: 16px 0px;
+	align-items: center;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .hamburger .options a {
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
+	font-weight: 700;
 }
 
 .hamburger .options img {
 	height: 20px;
 	width: 20px;
 }
+
+.hamburger-footer {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+
 
 .hamburger {
 	display: none;
@@ -172,10 +210,7 @@ body {
 	height: 44px;
 }
 
-.hamburger-header .close-btn img {
-	height: 44px;
-	width: 44px;
-}
+
 
 /* hamburger section finish  */
 
@@ -1783,12 +1818,13 @@ footer {
 		display: none;
 	}
 
-	.hamburger.showHamburger {
+	 #hamburger-icon-img {
 		display: block;
 	}
-
-	#hamburger-icon-img {
-		display: block;
+	
+	.navbar-middle,
+	.navbar-right .subscribe-btn {
+		display: none; 
 	}
 
 
