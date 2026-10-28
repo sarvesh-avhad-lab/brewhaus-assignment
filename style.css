@@ -100,9 +100,20 @@ body {
 	gap: 10px;
 }
 
-.navbar-right img {
-	height: 46px;
-	width: 46px;
+.navbar-right .shop-cart-container {
+	height: 44px;
+	width: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	border-radius: 50%;
+	border: 1px solid #FFFFFF1f;
+}
+
+.navbar-right .shop-cart-container img {
+	height: 22px;
+	width: 22px;
 }
 
 .subscribe-btn {
