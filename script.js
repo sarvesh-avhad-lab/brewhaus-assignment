@@ -11,8 +11,6 @@ function textChanger() {
 	if(i==4) i=0;
 }
 
-textChanger() 
-
 setInterval(textChanger, 2000);
 
 
@@ -125,3 +123,32 @@ checkBox.addEventListener("change", function() {
 });
 
 // FAQ Section
+const expander1 = document.querySelector(".expander1");
+const expander2 = document.querySelector(".expander2");
+const expander3 = document.querySelector(".expander3");
+const expander4 = document.querySelector(".expander4");
+const expander5 = document.querySelector(".expander5");
+const expander6 = document.querySelector(".expander6");
+
+
+
+// const answer1 = document.querySelector(".answer1");
+// const answer2 = document.querySelector(".answer2");
+// const answer3 = document.querySelector(".answer3");
+// const answer4 = document.querySelector(".answer4");
+// const answer5 = document.querySelector(".answer5");
+// const answer6 = document.querySelector(".answer6");
+
+const answers = document.querySelectorAll("answer");
+
+expander1.addEventListener("clicked", function() {
+	ShowFaqPara("expander1");
+});
+
+function ShowFaqPara(clickedbtn) {
+	for (const ans of answers) {
+		if(ans.classList.contains(clickedbtn)){
+			
+		}
+	}
+}
