@@ -461,6 +461,14 @@ body {
 	padding-top: 32px;
 	padding-left: 28px;
 	border-radius: 20px;
+
+	box-shadow: 0 4px 6px #0000001a;
+  	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px #0000001e;
+  transform: translateY(-4px);
 }
 
 .why-card-text {
