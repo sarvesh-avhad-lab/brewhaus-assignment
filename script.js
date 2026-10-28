@@ -3,13 +3,14 @@
 const words = ['weekends', 'mornings', 'deep work', 'slow sundays'];
 const word = document.querySelector("#text-changer");
 
+const verticalBar = document.querySelector('#vertical-bar');
+
 let i = 0;
 
-// 0 1 2 3 4
 function textChanger() {
-	word.textContent = words[i];
+	word.textContent = words[i] + '|';
 	i++;
-	if(i==3) i=0;
+	if(i==4) i=0;
 }
 
 setInterval(textChanger, 2000);
