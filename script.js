@@ -83,6 +83,25 @@ function highlightButton(clickedBtn) {
 
 // Hamburger Icon click;
 
+const hamburgerIcon = document.querySelector("#hamburger-icon-img");
+const closeMenuBtn = document.querySelector("#close-menu-btn");
+const hamburgerMenu = document.querySelector("#hamburger-menu");
+
+// Open 
+hamburgerIcon.addEventListener("click", openHamburgerMenu);
+
+function openHamburgerMenu() {
+	hamburgerMenu.classList.add("showHamburger");
+}
+
+
+// Close 
+closeMenuBtn.addEventListener("click", closeHamburgerMenu);
+
+function closeHamburgerMenu() {
+	hamburgerMenu.classList.remove("showHamburger");
+}
+
 
 
 
