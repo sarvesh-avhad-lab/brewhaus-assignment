@@ -24,7 +24,6 @@ const dessertsbtn = document.querySelector("#desserts");
 const allMenuCards = document.querySelectorAll(".menu-card");
 
 
-// adding events
 allbtn.addEventListener("click", function() {
 	cardHider("all");
 	highlightButton(allbtn);
@@ -80,7 +79,7 @@ function highlightButton(clickedBtn) {
 }
 
 
-
+/*************************************** */
 // Hamburger Icon click;
 
 const hamburgerIcon = document.querySelector("#hamburger-icon-img");
@@ -147,36 +146,50 @@ checkBox.addEventListener("change", function() {
 	}
 });
 
+/*************************************** */
 // FAQ Section
 const expander1 = document.querySelector(".expander1");
-// const expander2 = document.querySelector(".expander2");
-// const expander3 = document.querySelector(".expander3");
-// const expander4 = document.querySelector(".expander4");
-// const expander5 = document.querySelector(".expander5");
-// const expander6 = document.querySelector(".expander6");
+const expander2 = document.querySelector(".expander2");
+const expander3 = document.querySelector(".expander3");
+const expander4 = document.querySelector(".expander4");
+const expander5 = document.querySelector(".expander5");
+const expander6 = document.querySelector(".expander6");
 
-const expanders = document.querySelector(".expander");
 
-// const answer1 = document.querySelector(".answer1");
-// const answer2 = document.querySelector(".answer2");
-// const answer3 = document.querySelector(".answer3");
-// const answer4 = document.querySelector(".answer4");
-// const answer5 = document.querySelector(".answer5");
-// const answer6 = document.querySelector(".answer6");
+const answer1 = document.querySelector(".answer1");
+const answer2 = document.querySelector(".answer2");
+const answer3 = document.querySelector(".answer3");
+const answer4 = document.querySelector(".answer4");
+const answer5 = document.querySelector(".answer5");
+const answer6 = document.querySelector(".answer6");
 
-const answers = document.querySelectorAll(".answer");
 
-expander1.addEventListener("click", function() {
-	ShowFaqPara("expander1");
+expander1.addEventListener("click", function(){
+	expanderOnePrara(answer1);
 });
 
-function ShowFaqPara(clickedbtn) {
-	for (const ans of answers) {
-		if(ans.classList.contains(clickedbtn)){
+expander2.addEventListener("click", function(){
+	expanderOnePrara(answer2);
+});
 
-		}
-	}
+expander3.addEventListener("click", function(){
+	expanderOnePrara(answer3);
+});
 
+expander4.addEventListener("click", function(){
+	expanderOnePrara(answer4);
+});
+
+expander5.addEventListener("click", function(){
+	expanderOnePrara(answer5);
+});
+
+expander6.addEventListener("click", function(){
+	expanderOnePrara(answer6);
+});
+
+function expanderOnePrara(showAnswer) {
+	showAnswer.classList.toggle('showPara');
 }
 
 

@@ -1461,9 +1461,7 @@ input:checked + .slider:before {
 	text-decoration: none;
 }
 
-/* .question a {
-	background-color: #E8A33D;
-} */
+
 
 /* css for para */
 .answer.showPara {
