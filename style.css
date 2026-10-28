@@ -296,6 +296,22 @@ body {
 	font-size: 16px;
 }
 
+.scroll-btn {
+	animation: float 1.8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .scroll-btn a {
 	display: flex;
 	flex-direction: column;
@@ -2248,7 +2264,7 @@ footer {
 	.scroll-btn {
 		display: none;
 	}
-	
+
 	/* Why brewhaus section  */
 	.why-brewhaus-section {
 		width: 100%;
