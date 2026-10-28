@@ -1097,6 +1097,12 @@ input:checked + .slider:before {
 	border-radius: 28px;
 }
 
+/* .review-card2 {
+	display: none;
+} */
+
+
+
 .review-middle-left img {
 	height: 168px;
 	width: 168px;
