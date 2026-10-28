@@ -209,6 +209,9 @@ function paraExpander(showAnswer) {
 
 function expanderChanger(expander) {
 	expander.classList.toggle('changeExpander');
+
+	if (expander.textContent === '-') expander.textContent = '+';
+	else expander.textContent = '-';
 }
 
 
