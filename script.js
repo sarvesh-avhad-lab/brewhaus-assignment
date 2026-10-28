@@ -172,6 +172,9 @@ const expander5 = document.querySelector(".expander5");
 const expander6 = document.querySelector(".expander6");
 
 
+// const allAnswers = document.querySelectorAll(".answer");
+
+
 question1.addEventListener("click", function(){ 
 	paraExpander(answer1);
 	expanderChanger(expander1);
@@ -204,6 +207,8 @@ question6.addEventListener("click", function(){
 
 // Expander function
 function paraExpander(showAnswer) {
+
+
 	showAnswer.classList.toggle('showPara');
 }
 
@@ -227,7 +232,7 @@ const sliders = document.querySelectorAll(".slider-review");
 let idx = 0;
 
 function reviewChanger() {
-	reviewCards[idx].classList.add('ReviewHider');      
+	reviewCards[idx].classList.add('ReviewHider');    
   	sliders[idx].classList.remove('slider-selected');   
 	idx++;
 	if( idx == 4) idx=0;
@@ -235,4 +240,36 @@ function reviewChanger() {
   	sliders[idx].classList.add('slider-selected');
 }
 
-setInterval(reviewChanger, 5000);
+setInterval(reviewChanger, 2000);
+
+
+
+const goRight = document.querySelector(".go-right");
+
+goRight.addEventListener("click", function() {
+	rightCardChanger();
+})
+
+function rightCardChanger() {
+	reviewCards[idx].classList.add('ReviewHider');    
+  	sliders[idx].classList.remove('slider-selected');   
+	idx++;
+	if(idx === 4) idx = 0;
+	reviewCards[idx].classList.add('ReviewHider');    
+  	sliders[idx].classList.remove('slider-selected');   
+}
+
+
+const goLeft = document.querySelector(".go-left");
+goLeft.addEventListener("click", function() {
+	leftCardChanger();
+})
+
+function leftCardChanger() {
+	reviewCards[idx].classList.add('ReviewHider');    
+  	sliders[idx].classList.remove('slider-selected');   
+	idx--;
+	if(idx === 0) idx = 4;
+	reviewCards[idx].classList.add('ReviewHider');    
+  	sliders[idx].classList.remove('slider-selected');   
+}
