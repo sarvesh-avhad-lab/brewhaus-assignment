@@ -5,10 +5,11 @@ const word = document.querySelector("#text-changer");
 
 let i = 0;
 
+// 0 1 2 3 4
 function textChanger() {
 	word.textContent = words[i];
 	i++;
-	if(i==4) i=0;
+	if(i==3) i=0;
 }
 
 setInterval(textChanger, 2000);
@@ -113,7 +114,7 @@ const connoisseurPara = document.querySelector("#connoisseur-p");
 checkBox.addEventListener("change", function() {
 	if (checkBox.checked) {
 		explorerPrice.textContent = "$14";
-        explorerPara.textContent = "Billed $168 yearly · save $48";
+        explorerPara.textContent = "Billed $168 yearly · save $48";	
 
 		enthusiastPrice.textContent = "$23";
         enthusiastPara.textContent = "Billed $276 yearly · save $72";
