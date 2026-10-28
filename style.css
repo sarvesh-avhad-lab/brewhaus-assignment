@@ -109,6 +109,8 @@ body {
 	padding: 10px 20px;
 	border-radius: 50%;
 	border: 1px solid #FFFFFF1f;
+
+	position: relative; 
 }
 
 .item-counter {
@@ -120,6 +122,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	border-radius: 50%;
 	font-size: 12px;
+	font-weight: 700;
 
 	display: flex;
 	justify-content: center;
@@ -128,8 +131,8 @@ body {
 	flex-shrink: 0; 
 
 	position: absolute;
-  	top: 10px;
-	right: 190px;
+	top: -8px;
+	right: -8px;
 }
 
 .navbar-right .shop-cart-container img {
