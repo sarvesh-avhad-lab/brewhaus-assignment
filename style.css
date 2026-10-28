@@ -293,6 +293,25 @@ body {
 	font-family: var(--font);
 }
 
+/* Blinking cursor  */
+#vertical-bar {
+    font-size: 76px; 
+	font-weight: 400; 
+	line-height: 78px; 
+	transform: translateY(-4px) scaleY(1.2); 
+	animation: blink 1.3s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .hero-para {
 	height: 64px;
 	width: 580px;

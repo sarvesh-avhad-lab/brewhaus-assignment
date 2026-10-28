@@ -14,6 +14,7 @@ function textChanger() {
 
 setInterval(textChanger, 2000);
 
+/*************************************** */
 // Our menu section 
 
 const allbtn = document.querySelector("#all");
