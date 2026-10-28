@@ -1137,7 +1137,7 @@ input:checked + .slider:before {
 	gap: 10px;
 }
 
-.review-bottom .slider {
+.review-bottom .slider-review {
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
