@@ -159,7 +159,7 @@ expander1.addEventListener("click", function() {
 function ShowFaqPara(clickedbtn) {
 	for (const ans of answers) {
 		if(ans.classList.contains(clickedbtn)){
-
+			
 		}
 	}
 

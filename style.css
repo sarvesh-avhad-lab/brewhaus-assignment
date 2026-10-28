@@ -820,8 +820,6 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
@@ -1345,9 +1343,9 @@ input:checked + .slider:before {
 	text-decoration: none;
 }
 
-.question a {
-	/* background-color: #E8A33D; */
-}
+/* .question a {
+	background-color: #E8A33D;
+} */
 
 /* css for para */
 .answer.showPara {
