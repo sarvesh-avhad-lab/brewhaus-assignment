@@ -111,6 +111,27 @@ body {
 	border: 1px solid #FFFFFF1f;
 }
 
+.item-counter {
+	height: 22px;
+	width: 22px;
+	background-color: #E8A33D;
+
+	color: #1A130F;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 50%;
+	font-size: 12px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-shrink: 0; 
+
+	position: absolute;
+  	top: 10px;
+	right: 190px;
+}
+
 .navbar-right .shop-cart-container img {
 	height: 22px;
 	width: 22px;
