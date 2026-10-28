@@ -1110,6 +1110,11 @@ input:checked + .slider:before {
 	gap: 22px;
 }
 
+.rating-starts img {
+	height: 22px;
+	width: 22px;
+}
+
 .quote {
 	color: #FFFFFF;
 	font-size: 26px;
