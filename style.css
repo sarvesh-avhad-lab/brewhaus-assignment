@@ -156,7 +156,7 @@ body {
 	width: 20px;
 }
 
-#hamburger-icon {
+#hamburger-menu {
 	display: none;
 }
 
@@ -1340,7 +1340,12 @@ input:checked + .slider:before {
 }
 
 .question a {
-	background-color: #E8A33D;
+	/* background-color: #E8A33D; */
+}
+
+/* css for para */
+.answer.showPara {
+	display: block;
 }
 
 
@@ -1356,11 +1361,6 @@ input:checked + .slider:before {
 
 	display: none;
 }
-
-.answer.showPara {
-	display: block;
-} 
-
 
 
 /* contact section  */
@@ -1741,8 +1741,8 @@ footer {
 		display: none;
 	}
 
-	#hamburger-icon {
-	/* display: block; */
+	#hamburger-menu.showHamburger {
+	display: block;
 	}
 
 	#hamburger-icon-img {

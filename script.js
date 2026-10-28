@@ -79,6 +79,17 @@ function highlightButton(clickedBtn) {
     clickedBtn.classList.add("bgcolorClass");
 }
 
+
+
+// Hamburger Icon click;
+const hamburger = document.querySelector("#hamburger-icon-img");
+const hamburgerMenu = document.querySelector(".hamburger");
+
+hamburger.addEventListener("click", function() {
+	hamburgerMenu.classList.add("showHamburger");
+});
+
+
 // Subscription plans;
 
 
@@ -123,14 +134,14 @@ checkBox.addEventListener("change", function() {
 });
 
 // FAQ Section
-const expander1 = document.querySelector(".expander1");
-const expander2 = document.querySelector(".expander2");
-const expander3 = document.querySelector(".expander3");
-const expander4 = document.querySelector(".expander4");
-const expander5 = document.querySelector(".expander5");
-const expander6 = document.querySelector(".expander6");
+// const expander1 = document.querySelector(".expander1");
+// const expander2 = document.querySelector(".expander2");
+// const expander3 = document.querySelector(".expander3");
+// const expander4 = document.querySelector(".expander4");
+// const expander5 = document.querySelector(".expander5");
+// const expander6 = document.querySelector(".expander6");
 
-
+const expanders = document.querySelector(".expander");
 
 // const answer1 = document.querySelector(".answer1");
 // const answer2 = document.querySelector(".answer2");
@@ -139,16 +150,17 @@ const expander6 = document.querySelector(".expander6");
 // const answer5 = document.querySelector(".answer5");
 // const answer6 = document.querySelector(".answer6");
 
-const answers = document.querySelectorAll("answer");
+const answers = document.querySelectorAll(".answer");
 
-expander1.addEventListener("clicked", function() {
+expander1.addEventListener("click", function() {
 	ShowFaqPara("expander1");
 });
 
 function ShowFaqPara(clickedbtn) {
 	for (const ans of answers) {
 		if(ans.classList.contains(clickedbtn)){
-			
+
 		}
 	}
+
 }
