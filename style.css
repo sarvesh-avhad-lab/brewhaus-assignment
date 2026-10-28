@@ -1101,6 +1101,10 @@ input:checked + .slider:before {
 	display: none;
 } */
 
+.review-middle.ReviewHider {
+	display: none;
+}
+
 
 
 .review-middle-left img {
@@ -1148,14 +1152,14 @@ input:checked + .slider:before {
 	gap: 10px;
 }
 
-.review-bottom .slider-review {
+.slider-review {
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
 	background-color: #6B5D53;
 }
 
-.review-bottom .slider-selected {
+.slider-selected {
 	height: 10px;
 	width: 30px;
 	border-radius: 50px;

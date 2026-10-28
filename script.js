@@ -134,7 +134,7 @@ checkBox.addEventListener("change", function() {
 });
 
 // FAQ Section
-// const expander1 = document.querySelector(".expander1");
+const expander1 = document.querySelector(".expander1");
 // const expander2 = document.querySelector(".expander2");
 // const expander3 = document.querySelector(".expander3");
 // const expander4 = document.querySelector(".expander4");
@@ -159,8 +159,25 @@ expander1.addEventListener("click", function() {
 function ShowFaqPara(clickedbtn) {
 	for (const ans of answers) {
 		if(ans.classList.contains(clickedbtn)){
-			
+
 		}
 	}
 
 }
+
+
+
+// Review Section
+
+const reviewCards = document.querySelectorAll(".review-middle");
+
+let idx = 0;
+
+function reviewChanger() {
+	reviewCards[idx].classList.add('ReviewHider')
+	idx++;
+	if( idx == 4) idx=0;
+	reviewCards[idx].classList.remove('ReviewHider');
+}
+
+setInterval(reviewChanger, 5000);
