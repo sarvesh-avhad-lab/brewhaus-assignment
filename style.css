@@ -1159,7 +1159,7 @@ input:checked + .slider:before {
 	background-color: #6B5D53;
 }
 
-.slider-selected {
+.slider-review.slider-selected {
 	height: 10px;
 	width: 30px;
 	border-radius: 50px;

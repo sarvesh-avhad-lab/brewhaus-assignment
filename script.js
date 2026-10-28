@@ -171,13 +171,17 @@ function ShowFaqPara(clickedbtn) {
 
 const reviewCards = document.querySelectorAll(".review-middle");
 
+const sliders = document.querySelectorAll(".slider-review");
+
 let idx = 0;
 
 function reviewChanger() {
-	reviewCards[idx].classList.add('ReviewHider')
+	reviewCards[idx].classList.add('ReviewHider');      
+  	sliders[idx].classList.remove('slider-selected');   
 	idx++;
 	if( idx == 4) idx=0;
-	reviewCards[idx].classList.remove('ReviewHider');
+	reviewCards[idx].classList.remove('ReviewHider'); 
+  	sliders[idx].classList.add('slider-selected');
 }
 
 setInterval(reviewChanger, 5000);
