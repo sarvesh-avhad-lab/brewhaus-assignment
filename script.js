@@ -3,18 +3,16 @@
 const words = ['weekends', 'mornings', 'deep work', 'slow sundays'];
 const word = document.querySelector("#text-changer");
 
-const verticalBar = document.querySelector('#vertical-bar');
 
 let i = 0;
 
 function textChanger() {
-	word.textContent = words[i] + '|';
+	word.textContent = words[i];
 	i++;
 	if(i==4) i=0;
 }
 
 setInterval(textChanger, 2000);
-
 
 // Our menu section 
 
