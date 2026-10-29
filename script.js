@@ -6,10 +6,12 @@ const word = document.querySelector("#text-changer");
 
 let i = 0;
 
+// 0 1 2 3 
 function textChanger() {
 	word.textContent = words[i];
-	i++;
-	if(i==4) i=0;
+	
+	if(i==3) i=0;
+	else i++;
 }
 
 setInterval(textChanger, 2000);
@@ -50,12 +52,16 @@ function cardHider(option) {
 
 	for (const item of allMenuCards) {
 
-		if(option === "all") {
+		// if(option === "all") {
+		// 	item.classList.remove("hide");
+		// } 
+		// else if(item.classList.contains(option)) {
+		// 	item.classList.remove("hide");
+		// } 
+
+		if(option === "all" || item.classList.contains(option)) {
 			item.classList.remove("hide");
-		} 
-		else if(item.classList.contains(option)) {
-			item.classList.remove("hide");
-		} 
+		}
 		else {
 			item.classList.add("hide");
 		}

@@ -85,6 +85,13 @@ body {
 	
 }
 
+#home-btn {
+	text-decoration: underline;	
+	text-decoration-color: #E8A33D;
+	text-underline-offset: 8px;
+	text-decoration-thickness: 2px;
+}
+
 .navbar-middle a {
 	text-decoration: none;
 	color: #FFFFFF;
