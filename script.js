@@ -81,7 +81,7 @@ function highlightButton(clickedBtn) {
 
 /*************************************** */
 
-const AddToCart = document.querySelectorAll(".buy-btn a");
+const AddToCart = document.querySelectorAll(".buy-btn");
 const cart = document.querySelector(".item-counter");
 
 let counter = 2;

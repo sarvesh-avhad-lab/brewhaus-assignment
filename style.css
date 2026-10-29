@@ -868,6 +868,7 @@ body {
 	width: fit-content;	
 	padding: 10px 15px;
   	box-sizing: border-box;
+	cursor: pointer;
 }
 
 .buy-btn a {
