@@ -193,7 +193,7 @@ const expander5 = document.querySelector(".expander5");
 const expander6 = document.querySelector(".expander6");
 
 
-// const allAnswers = document.querySelectorAll(".answer");
+const allAnswers = document.querySelectorAll(".answer");
 
 
 question1.addEventListener("click", function(){ 
@@ -229,6 +229,9 @@ question6.addEventListener("click", function(){
 // Expander function
 function paraExpander(showAnswer) {
 
+	for (const ans of allAnswers ) {
+		ans.classList.remove('showPara');
+	}
 
 	showAnswer.classList.toggle('showPara');
 }
