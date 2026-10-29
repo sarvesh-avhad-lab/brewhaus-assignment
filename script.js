@@ -194,6 +194,7 @@ const expander6 = document.querySelector(".expander6");
 
 
 const allAnswers = document.querySelectorAll(".answer");
+const allExpanders = document.querySelectorAll(".expander");
 
 
 question1.addEventListener("click", function(){ 
@@ -231,6 +232,10 @@ function paraExpander(showAnswer) {
 
 	for (const ans of allAnswers ) {
 		ans.classList.remove('showPara');
+	}
+
+	for (const expa of allExpanders ) {
+		if (expa.textContent === '-') expa.textContent = '+';
 	}
 
 	showAnswer.classList.toggle('showPara');
