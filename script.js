@@ -235,7 +235,10 @@ function paraExpander(showAnswer) {
 	}
 
 	for (const expa of allExpanders ) {
-		if (expa.textContent === '-') expa.textContent = '+';
+		if (expa.textContent === '-'){
+			expa.textContent = '+';
+			expa.classList.remove('changeExpander');
+		} 
 	}
 
 	showAnswer.classList.toggle('showPara');
