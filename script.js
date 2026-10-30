@@ -317,3 +317,15 @@ function leftCardChanger() {
 	reviewCards[idx].classList.remove('ReviewHider'); 
   	sliders[idx].classList.add('slider-selected');
 }
+
+const navbar = document.querySelector(".navbar-container");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY >= 80) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+
+});

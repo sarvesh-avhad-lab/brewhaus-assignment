@@ -38,9 +38,26 @@ body {
 }
 
 .navbar-container {
-	height: 84px;
-	width: 100%;
-	border: 0.5px solid rgba(255, 255, 255, 0.12);
+    height: 84px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    border: 0.5px solid rgba(255, 255, 255, 0.12);
+
+    transition: 
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        height 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.navbar-container.scrolled {
+    height: 72px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .nav-bar {
@@ -69,6 +86,11 @@ body {
 	font-family: 'Bricolage Grotesque';
 	font-weight: 800;
 	font-size: 24px;
+	transition: color 0.3s ease;
+}
+
+.navbar-container.scrolled .navbar-left h1 {
+    color: #111111;
 }
 
 .navbar-left img {
@@ -90,6 +112,31 @@ body {
 	color: #FFFFFF;
 	font-size: 15px;
 	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.navbar-container.scrolled .navbar-middle a {
+    color: #333333;
+}
+
+.navbar-middle a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: #e9a333;
+
+    transition: width 0.3s ease;
+}
+
+
+.navbar-middle a.active::after {
+    width: 100%;
 }
 
 .navistyle {
