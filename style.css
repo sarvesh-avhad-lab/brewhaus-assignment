@@ -112,7 +112,24 @@ body {
 	color: #FFFFFF;
 	font-size: 15px;
 	font-weight: 500;
-	transition: color 0.3s ease;
+	position: relative;
+}
+
+.navbar-middle a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: #E8A33D;
+}
+
+.navbar-middle a.active::after {
+    width: 100%;
 }
 
 .navbar-container.scrolled .navbar-middle a {
@@ -130,21 +147,6 @@ body {
     height: 2px;
 
     background-color: #e9a333;
-
-    transition: width 0.3s ease;
-}
-
-
-.navbar-middle a.active::after {
-    width: 100%;
-}
-
-.navistyle {
-  text-decoration: underline;
-  text-decoration-color: #E8A33D;
-  text-decoration-style: solid;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 6px;
 }
 
 /* navbar right  */

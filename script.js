@@ -318,6 +318,8 @@ function leftCardChanger() {
   	sliders[idx].classList.add('slider-selected');
 }
 
+//  Navigation 
+
 const navbar = document.querySelector(".navbar-container");
 
 window.addEventListener("scroll", function () {
@@ -326,6 +328,31 @@ window.addEventListener("scroll", function () {
         navbar.classList.add("scrolled");
     } else {
         navbar.classList.remove("scrolled");
+    }
+
+});
+
+/*************************************** */
+// Active Navigation
+
+const sections = document.querySelectorAll("#home-id, #about-us-id, #our-menu-id, #Subscription-plans-id, #contact-us-id");
+
+const navLinks = document.querySelectorAll(".navbar-middle a");
+
+window.addEventListener("scroll", function() {
+
+    for (let i = 0; i < sections.length; i++) {
+
+        if (window.scrollY >= sections[i].offsetTop - 150) {
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+            });
+
+            navLinks[i].classList.add("active");
+
+        }
+
     }
 
 });
