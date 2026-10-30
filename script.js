@@ -81,22 +81,36 @@ function highlightButton(clickedBtn) {
 
 /*************************************** */
 
-const AddToCart = document.querySelectorAll(".buy-btn");
+const buybtns = document.querySelectorAll(".buy-btn");
 const cart = document.querySelector(".item-counter");
 
 let counter = 2;
 
-for (const btn of AddToCart ) {
+for (const cartbtn of buybtns) {
 
-	btn.addEventListener("click", function() {
-		increaseCounter();
-	});
+    cartbtn.addEventListener("click", function() {
+        AddToCart(cartbtn);
+    });
 
 }
 
-function increaseCounter() {
-	counter++;
-	cart.textContent = counter;
+function AddToCart(cartbtn) {
+
+    const btntext = cartbtn.querySelector("a");
+
+	if(cartbtn.classList.contains("added")) {
+		cartbtn.classList.remove("added");
+		btntext.textContent = "+ Add to Cart";
+
+		counter--;
+		cart.textContent = counter;
+	} else {
+		cartbtn.classList.add("added");
+		btntext.textContent = "✓ Added";
+
+		counter++;
+		cart.textContent = counter;
+	}
 }
 
 

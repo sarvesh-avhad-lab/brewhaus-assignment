@@ -882,6 +882,14 @@ body {
 	background-color: #120D0A;
 }
 
+.buy-btn.added {
+	background-color: #2E7D4F;
+}
+
+.buy-btn.added a { 
+	color: white; 
+}
+
 .buy-btn:hover a {
 	color: #FFFFFF;
 }
