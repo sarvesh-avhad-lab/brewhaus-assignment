@@ -92,6 +92,14 @@ body {
 	font-weight: 500;
 }
 
+.navistyle {
+  text-decoration: underline;
+  text-decoration-color: #E8A33D;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
 /* navbar right  */
 .navbar-right {
 	display: flex;
