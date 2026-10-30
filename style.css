@@ -60,6 +60,18 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
+.navbar-container.scrolled .nav-bar .navbar-right .shop-cart-container img {
+	display: none;	
+}
+
+.navbar-container.scrolled .nav-bar .navbar-right .shop-cart-container div {
+	height: 44px;
+	width: 44px;
+
+	top: 0px;
+	right: 0px;
+}
+
 .nav-bar {
 	width: 100%;
     max-width: 1199px;
