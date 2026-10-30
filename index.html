@@ -688,44 +688,49 @@
 				</div>
 
 				<div class="contact-right">
-					<form action="">
+					<form action="" novalidate>
 
 						<div class="fullname">
 							<label for="name">Full name</label>
 							<input type="text" placeholder="Aarav Sharma" name="name" id="name" required>
+							<small class="error-message"></small>
 						</div>
 
 						<div class="email">
 							<label for="email">Email</label>
 							<input type="email" placeholder="you@example.com" name="email" id="email" required>
+							<small class="error-message"></small>
 						</div>
-						
+
 						<div class="phone">
 							<label for="phone-no">Phone</label>
-							<input type="text" placeholder="10-digit mobile number" name="phone-no" id="phone-no">
+							<input type="text" placeholder="10-digit mobile number" name="phone-no" id="phone-no" required>
+							<small class="error-message"></small>
 						</div>
 
 						<div class="subject">
 							<label for="subject-select">Subject</label>
-							<select name="slect-subject" id="subject-select">
-								<!-- <option value="" disabled selected hidden>Select a subject</option> -->
+							<select name="slect-subject" id="subject-select" required>
 								<option value="" selected>Select a subject</option>
 								<option value="Subscription help">Subscription help</option>
 								<option value="Wholesale enquiry">Wholesale enquiry</option>
 								<option value="Feedback">Feedback</option>
 								<option value="Something else">Something else</option>
 							</select>
+							<small class="error-message"></small>
 						</div>
 
 						<div class="message">
-							<label for="write-message">message</label>
-							<input type="text" placeholder="How can I help?" name="message" id="write-message">
+							<label for="write-message">Message</label>
+							<textarea placeholder="How can I help?" name="message" id="write-message" required></textarea>
+							<small class="error-message"></small>
 						</div>
 
 						<div class="submit-field">
 							<p>All fields are required.</p>
-							<div class="read-story-btn">
-								<a href="#">Send message</a>
+
+							<div class="submit-form-btn">
+								<button type="submit">Send message</button>
 							</div>
 						</div>
 
